@@ -34,6 +34,11 @@ Full professor in Computer Science, SDC team of the Engineering, Computer and Im
 * Arnaud Abreu: PhD in collaboration with Roche France and Oncopôle Toulouse (from 10/2016)
 * Nicolas Vernhet: PhD in the project Radial in collaboration with IRCAD (from 10/2016)
 
+#### Graduated
+
+* [Bruno Belarte](https://www.linkedin.com/in/bruno-belarte-7b063b83): PhD in 2014 - now Senior Development Engineer at DisplayLink in Cambridge, UK. (co-supervised with [G. Forestier](https://germain-forestier.info/))
+* [Germain Forestier](https://germain-forestier.info/): PhD in 2010 - now Full Professor at Université de Haute-Alsace (co-supervised with [P. Gançarski](https://sdc.icube.unistra.fr/en/index.php?title=Pierre_Gan%C3%A7arski))
+* [Sébastien Derivaux](): PhD in 2009 - now freelance Data Science Architect
 
 #### Postdocs
 * Thomas Lampert: Postdoctoral position on the project SysMIFTA (11/2017-09/2019)
