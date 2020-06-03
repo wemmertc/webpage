@@ -2,17 +2,12 @@
 layout: default
 ---
 
-> When you’re fundraising, it’s AI   
-When you’re hiring, it’s ML   
-When you’re implementing, it’s linear regression   
-When you’re debugging, it’s printf()
-
 
 # Research
 
 Full professor in Computer Science, SDC team of the Engineering, Computer and Imaging Sciences Laboratory of the University of Strasbourg
 
-#Keywords# : ensemble clustering, high-level image analysis, knowledge extraction, histopathological images analysis
+**Keywords**: ensemble clustering, high-level image analysis, knowledge extraction, histopathological images analysis
 
 
 ## Current projects and collaborations
@@ -48,3 +43,11 @@ Full professor in Computer Science, SDC team of the Engineering, Computer and Im
 * * *
 
 ## Publications
+
+
+## What is my job?
+
+> When you’re fundraising, it’s AI   
+When you’re hiring, it’s ML   
+When you’re implementing, it’s linear regression   
+When you’re debugging, it’s printf()
