@@ -13,7 +13,7 @@ Full professor in Computer Science, SDC team of the Engineering, Computer and Im
 ## Current projects and collaborations
 
 * mi:EDGE: ERACoSysMed - Modelling cell plasticity at the invasive Edge to Diminish Glioblastoma Early relapse risk
-* AiCOLO (2020-2023): INSERM - Plan Cancer - Artificial intelligence to determine prognosis and mutation status in colorectal cancer using histological slides
+* [AiCOLO](https://wemmertc.github.io/aicolo/) (2020-2023): INSERM - Plan Cancer - Artificial intelligence to determine prognosis and mutation status in colorectal cancer using histological slides
 * Visorando: collaboration with...
 * Air&D: PhD thesis...
 * Pancréas GE: Grand-Est project
@@ -40,12 +40,15 @@ Full professor in Computer Science, SDC team of the Engineering, Computer and Im
 * Odyssée Merveille: Postdoctoral position in the IdEx project from University of Strasbourg (10/2017-03/2019)
 * Maja Temerinac-Ott: Postdoctoral position on the project SysMIFTA (05/2016-11/2017)
 
-* * *
 
 ## Publications
 
 
-## What is my job?
+
+* * *
+
+
+### What is my job?
 
 > When you’re fundraising, it’s AI   
 When you’re hiring, it’s ML   
