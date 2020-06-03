@@ -3,10 +3,9 @@ layout: default
 ---
 
 > When you’re fundraising, it’s AI 
-
-> When you’re hiring, it’s ML 
-
-> When you’re implementing, it’s linear regression 
+When you’re hiring, it’s ML 
+When you’re implementing, it’s linear regression 
+When you’re debugging, it’s printf()
 
 
 # Research
