@@ -10,9 +10,21 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Research supervision
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+## Current PhD researchers:
+
+* Florian Allender: PhD in collaboration with IGG team co-supervised by Jean-Michel Dischler and Rémi Allègre (from 09/2018)
+* Jelica Vasiljevic: PhD in collaboration with University of Belgrade (from 10/2017)
+* Arnaud Abreu: PhD in collaboration with Roche France and Oncopôle Toulouse (from 10/2016)
+* Nicolas Vernhet: PhD in the project Radial in collaboration with IRCAD (from 10/2016)
+
+* Thomas Lampert: Postdoctoral position on the project SysMIFTA (from 11/2017)
+* Odyssée Merveille: Postdoctoral position in the IdEx project from University of Strasbourg (from 10/2017)
+* Maja Temerinac-Ott: Postdoctoral position on the project SysMIFTA (05/2016-11/2017)
+
 
 ## Header 2
 
