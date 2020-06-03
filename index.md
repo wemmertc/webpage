@@ -2,12 +2,14 @@
 layout: default
 ---
 
-> When you’re fundraising, it’s AI  - When you’re hiring, it’s ML  - When you’re implementing, it’s linear regression  - When you’re debugging, it’s printf()
+> When you’re fundraising, it’s AI 
+> When you’re hiring, it’s ML 
+> When you’re implementing, it’s linear regression 
 
 
 Full professor in Computer Science, SDC team of the Engineering, Computer and Imaging Sciences Laboratory of the University of Strasbourg
 
-[Google Scholar](http://scholar.google.com/citations?user=53-jD5QAAAAJ) | [DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/w/Wemmert:C=eacute=dric.html)
+[Google Scholar](http://scholar.google.com/citations?user=53-jD5QAAAAJ)   [DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/w/Wemmert:C=eacute=dric.html)
 
 Keywords : ensemble clustering, high-level image analysis, knowledge extraction, histopathological images analysis
 
@@ -19,7 +21,7 @@ Keywords : ensemble clustering, high-level image analysis, knowledge extraction,
 * Air&D: PhD thesis...
 * Pancréas GE: Grand-Est project
 
-## Past activities
+### Past activities
 
 * MicMod-I2T (2017-2020): BMBF - Modular image analysis platform to integrate microscopic data from biopsies into mathematical models of immune cell-target interaction
 * SysMIFTA (2016-2019): ERACoSysMed - Systems medicine approach to minimize macrophage-associated interstitial fibrosis and tubular atrophy in renal allograft rejection
