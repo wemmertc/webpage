@@ -4,9 +4,27 @@ layout: default
 
 > When you’re fundraising, it’s AI  - When you’re hiring, it’s ML  - When you’re implementing, it’s linear regression  - When you’re debugging, it’s printf()
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+Full professor in Computer Science, SDC team of the Engineering, Computer and Imaging Sciences Laboratory of the University of Strasbourg
+
+[Google Scholar](http://scholar.google.com/citations?user=53-jD5QAAAAJ) | [DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/w/Wemmert:C=eacute=dric.html)
+
+Keywords : ensemble clustering, high-level image analysis, knowledge extraction, histopathological images analysis
+
+## Current projects and collaborations
+
+* mi:EDGE: ERACoSysMed - Modelling cell plasticity at the invasive Edge to Diminish Glioblastoma Early relapse risk
+* AiCOLO (2020-2023): INSERM - Plan Cancer - Artificial intelligence to determine prognosis and mutation status in colorectal cancer using histological slides
+* Visorando: collaboration with...
+* Air&D: PhD thesis...
+* Pancréas GE: Grand-Est project
+
+## Past activities
+
+* MicMod-I2T (2017-2020): BMBF - Modular image analysis platform to integrate microscopic data from biopsies into mathematical models of immune cell-target interaction
+* SysMIFTA (2016-2019): ERACoSysMed - Systems medicine approach to minimize macrophage-associated interstitial fibrosis and tubular atrophy in renal allograft rejection
+* Sysimit (2013-2017): BMBF - Systems Immunology and Image Mining in Translational Tissue Biomarker Research: Mining the spatial patterns of adaptive immune responses to persisting tissue antigens to exploit the full predictive potential of protocol biopsies in transplantation and cancer research
+
 
 ## Research supervision
 
