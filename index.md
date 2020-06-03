@@ -29,8 +29,6 @@ Full professor in Computer Science, SDC team of the Engineering, Computer and Im
 
 ## Research supervision
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
 #### Current PhD researchers
 
 * Florian Allender: PhD in collaboration with IGG team co-supervised by Jean-Michel Dischler and Rémi Allègre (from 09/2018)
