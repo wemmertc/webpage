@@ -7,8 +7,9 @@ layout: default
 > When you’re implementing, it’s linear regression 
 
 
-Full professor in Computer Science, SDC team of the Engineering, Computer and Imaging Sciences Laboratory of the University of Strasbourg
+### Research interests
 
+Full professor in Computer Science, SDC team of the Engineering, Computer and Imaging Sciences Laboratory of the University of Strasbourg
 *Keywords* : ensemble clustering, high-level image analysis, knowledge extraction, histopathological images analysis
 
 ## Current projects and collaborations
