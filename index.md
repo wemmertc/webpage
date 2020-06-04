@@ -49,7 +49,7 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 ## Publications
 A complete list of all my publications can be found on the [ICube publications server](https://icube-publis.unistra.fr/appli.php?author=wemmert).
 
-#### Some recent publications
+#### Some selected publications
 
 * Pelaccia, T., Forestier, G. and Wemmert, C. (2019)  
 [**Deconstructing the diagnostic reasoning of human versus artificial intelligence**](https://doi.org/10.1503/cmaj.190506)  
