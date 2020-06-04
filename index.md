@@ -55,7 +55,7 @@ A complete list of all my publications can be found on the [ICube publications s
 [**Deconstructing the diagnostic reasoning of human versus artificial intelligence**](https://doi.org/10.1503/cmaj.190506)  
 Canadian Medical Association Journal, 2019, Vol. 191(48), pp. E1332 - [[PDF]](./publications/cmaj2019.pdf)
 
-* A. Grote , N. Schaadt , G. Forestier , C. Wemmert, F. Feuerhake   (2018)
+* A. Grote , N. Schaadt , G. Forestier , C. Wemmert, F. Feuerhake (2018)  
 [**Crowdsourcing of Histological Image Labeling and Object Delineation by Medical Students**](https://doi.org/10.1109/TMI.2018.2883237)  
 IEEE Transactions on Medical Imaging, 38(5), 1284-1294 - [[PDF]](./publications/tmi2018.pdf)
 
@@ -63,7 +63,9 @@ IEEE Transactions on Medical Imaging, 38(5), 1284-1294 - [[PDF]](./publications/
 [**Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis**]()  
 Breast Cancer Res Treat 164 (2), 305-315. 2017 Apr 25 - [[PDF]](./publications/brct2017.pdf)
 
-* A. Cornuéjols, C. Wemmert, P. Gançarski, Y. Bennani, Collaborative Clustering: Why, When, What and How, Information Fusion, Elsevier, Volume 39, January 2018, Pages 81-95
+* A. Cornuéjols, C. Wemmert, P. Gançarski, Y. Bennani (2017)  
+[**Collaborative Clustering: Why, When, What and How**](https://doi.org/10.1016/j.inffus.2017.04.008)  
+Information Fusion, Elsevier, Volume 39, January 2018, Pages 81-95 - [[PDF]](./publications/if2017.pdf)
 
 * J. Alfonso, N. Schaadt, R. Schönmeyer, N. Brieu , G. Forestier, C. Wemmert , F. Feuerhake , H. Hatzikirou, In-silico insights on the prognostic potential of immune cell infiltration patterns in the breast lobular epithelium, Scientific Reports , Volume 6 - 2016
 
