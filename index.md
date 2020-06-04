@@ -5,7 +5,7 @@ layout: default
 
 # Research
 
-Full professor in Computer Science, SDC team of the Engineering, Computer and Imaging Sciences Laboratory of the University of Strasbourg
+Full professor in Computer Science, SDC team of the [**Engineering, Computer and Imaging Sciences Laboratory**](icube.unistra.fr) of the [**University of Strasbourg**](unistra.fr)
 
 **Keywords**: ensemble clustering, high-level image analysis, knowledge extraction, histopathological images analysis
 
@@ -67,7 +67,9 @@ Breast Cancer Res Treat 164 (2), 305-315. 2017 Apr 25 - [[PDF]](./publications/b
 [**Collaborative Clustering: Why, When, What and How**](https://doi.org/10.1016/j.inffus.2017.04.008)  
 Information Fusion, Elsevier, Volume 39, January 2018, Pages 81-95 - [[PDF]](./publications/if2017.pdf)
 
-* J. Alfonso, N. Schaadt, R. Schönmeyer, N. Brieu , G. Forestier, C. Wemmert , F. Feuerhake , H. Hatzikirou, In-silico insights on the prognostic potential of immune cell infiltration patterns in the breast lobular epithelium, Scientific Reports , Volume 6 - 2016
+* J. Alfonso, N. Schaadt, R. Schönmeyer, N. Brieu , G. Forestier, C. Wemmert , F. Feuerhake , H. Hatzikirou  (2016)
+[**In-silico insights on the prognostic potential of immune cell infiltration patterns in the breast lobular epithelium**]()  
+Scientific Reports, Volume 6 - 2016 - [[PDF]](./publications/if2017.pdf)
 
 * G. Apou, N. Schaadt , B. Naegel, G. Forestier , R. Schönmeyer , F. Feuerhake , C. Wemmert, A. Grote, Detection of lobular structures in normal breast tissue, Computers in Biology and Medicine, Elsevier, Volume 74, pages 91-102 - 2016
 
