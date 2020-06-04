@@ -60,7 +60,7 @@ Canadian Medical Association Journal, 2019, Vol. 191(48), pp. E1332 - [[PDF]](./
 IEEE Transactions on Medical Imaging, 38(5), 1284-1294 - [[PDF]](./publications/tmi2018.pdf)
 
 * N. Schaadt, J. Alfonso, R. Schönmeyer, A. Grote, G. Forestier, C. Wemmert, et al.  (2017)
-[**Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis**]()  
+[**Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis**](http://doi.org/10.1007/s10549-017-4239-z)  
 Breast Cancer Res Treat 164 (2), 305-315. 2017 Apr 25 - [[PDF]](./publications/brct2017.pdf)
 
 * A. Cornuéjols, C. Wemmert, P. Gançarski, Y. Bennani (2017)  
