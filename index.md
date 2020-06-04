@@ -7,7 +7,7 @@ layout: default
 
 Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/index.php?title=Home) of the [Engineering, Computer and Imaging Sciences Laboratory](https://icube.unistra.fr) of the [University of Strasbourg](https://unistra.fr)
 
-**Keywords**: ensemble clustering, high-level image analysis, knowledge extraction, histopathological images analysis
+**Keywords**: data science, machine learning, histopathological images analysis
 
 
 ## Current projects and collaborations
@@ -32,7 +32,7 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 * Florian Allender: PhD in collaboration with IGG team co-supervised by Jean-Michel Dischler and Rémi Allègre (from 09/2018)
 * Jelica Vasiljevic: PhD in collaboration with University of Belgrade (from 10/2017)
 * Arnaud Abreu: PhD in collaboration with Roche France and Oncopôle Toulouse (from 10/2016)
-* Nicolas Vernhet: PhD in the project Radial in collaboration with IRCAD (from 10/2016)
+* Nicolas Vernhet: PhD in the project Radial in collaboration with [IRCAD](https://www.ircad.fr/) (from 10/2016)
 
 #### Graduated
 * [Bruno Belarte](https://www.linkedin.com/in/bruno-belarte-7b063b83): PhD in 2014 - now Senior Development Engineer at DisplayLink in Cambridge, UK. (co-supervised with [G. Forestier](https://germain-forestier.info/))
@@ -68,10 +68,12 @@ Breast Cancer Res Treat 164 (2), 305-315. 2017 Apr 25 - [[PDF]](./publications/b
 Information Fusion, Elsevier, Volume 39, January 2018, Pages 81-95 - [[PDF]](./publications/if2017.pdf)
 
 * J. Alfonso, N. Schaadt, R. Schönmeyer, N. Brieu , G. Forestier, C. Wemmert , F. Feuerhake , H. Hatzikirou  (2016)
-[**In-silico insights on the prognostic potential of immune cell infiltration patterns in the breast lobular epithelium**]()  
-Scientific Reports, Volume 6 - 2016 - [[PDF]](./publications/if2017.pdf)
+[**In-silico insights on the prognostic potential of immune cell infiltration patterns in the breast lobular epithelium**](https://doi.org/10.1038/srep33322)  
+Scientific Reports, Volume 6 - 2016 - [[PDF]](./publications/srep2016.pdf)
 
-* G. Apou, N. Schaadt , B. Naegel, G. Forestier , R. Schönmeyer , F. Feuerhake , C. Wemmert, A. Grote, Detection of lobular structures in normal breast tissue, Computers in Biology and Medicine, Elsevier, Volume 74, pages 91-102 - 2016
+* G. Apou, N. Schaadt , B. Naegel, G. Forestier , R. Schönmeyer , F. Feuerhake , C. Wemmert, A. Grote (2016)  
+[**Detection of lobular structures in normal breast tissue**]()  
+Computers in Biology and Medicine, Elsevier, Volume 74, pages 91-102 - [[PDF]](./publications/srep2016.pdf)
 
 * G. Forestier , C. Wemmert, Semi-supervised learning using multiple clusterings with limited labeled data, Information Sciences, Elsevier, Volume 361-362 , page 48-65 - 2016
 
