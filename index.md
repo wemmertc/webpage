@@ -5,7 +5,7 @@ layout: default
 
 # Research
 
-Full professor in Computer Science, SDC team of the [**Engineering, Computer and Imaging Sciences Laboratory**](icube.unistra.fr) of the [**University of Strasbourg**](unistra.fr)
+Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/index.php?title=Home) of the [Engineering, Computer and Imaging Sciences Laboratory](https://icube.unistra.fr) of the [University of Strasbourg](https://unistra.fr)
 
 **Keywords**: ensemble clustering, high-level image analysis, knowledge extraction, histopathological images analysis
 
