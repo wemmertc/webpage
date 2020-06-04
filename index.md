@@ -72,10 +72,12 @@ Information Fusion, Elsevier, Volume 39, January 2018, Pages 81-95 - [[PDF]](./p
 Scientific Reports, Volume 6 - 2016 - [[PDF]](./publications/srep2016.pdf)
 
 * G. Apou, N. Schaadt , B. Naegel, G. Forestier , R. Schönmeyer , F. Feuerhake , C. Wemmert, A. Grote (2016)  
-[**Detection of lobular structures in normal breast tissue**]()  
-Computers in Biology and Medicine, Elsevier, Volume 74, pages 91-102 - [[PDF]](./publications/srep2016.pdf)
+[**Detection of lobular structures in normal breast tissue**](https://doi.org/10.1016/j.compbiomed.2016.05.004)  
+Computers in Biology and Medicine, Elsevier, Volume 74, pages 91-102 - [[PDF]](./publications/cbm2016.pdf)
 
-* G. Forestier , C. Wemmert, Semi-supervised learning using multiple clusterings with limited labeled data, Information Sciences, Elsevier, Volume 361-362 , page 48-65 - 2016
+* G. Forestier , C. Wemmert (2016)
+[**Semi-supervised learning using multiple clusterings with limited labeled data**]()  
+Information Sciences, Elsevier, Volume 361-362 , page 48-65 - [[PDF]](./publications/is2016.pdf) [[Source code]](https://germain-forestier.info/src/is2016/)
 
 
 * * *
