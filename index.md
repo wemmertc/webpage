@@ -10,16 +10,15 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 **Keywords**: data science, machine learning, histopathological images analysis
 
 
+
 ## Current projects and collaborations
 
 {% include projects.md %}
 
-
 #### Past activities
 
-* MicMod-I2T (2017-2020): BMBF - Modular image analysis platform to integrate microscopic data from biopsies into mathematical models of immune cell-target interaction
-* [SysMIFTA](https://www.era-learn.eu/network-information/networks/eracosysmed/1st-call-european-research-projects-to-demonstrate/systems-medicine-approach-to-minimize-macrophage-associated-interstitial-fibrosis-and-tubular-atrophy-in-renal-allograft-rejection) (2016-2019): ERACoSysMed - Systems medicine approach to minimize macrophage-associated interstitial fibrosis and tubular atrophy in renal allograft rejection
-* [Sysimit](http://www.sysim.it/) (2013-2017): BMBF - Systems Immunology and Image Mining in Translational Tissue Biomarker Research: Mining the spatial patterns of adaptive immune responses to persisting tissue antigens to exploit the full predictive potential of protocol biopsies in transplantation and cancer research
+{% include past_projects.md %}
+
 
 
 ## Research supervision
