@@ -12,12 +12,6 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 
 ## Current projects and collaborations
 
-* [mi:EDGE](https://www.era-learn.eu/network-information/networks/eracosysmed/3rd-joint-transnational-call-for-european-research-projects-on-systems-medicine/modelling-cell-plasticity-at-the-invasive-edge-to-diminish-glioblastoma-early-relapse-risk): ERACoSysMed - Modelling cell plasticity at the invasive Edge to Diminish Glioblastoma Early relapse risk
-* [AiCOLO](https://wemmertc.github.io/aicolo/) (2020-2023): INSERM - Plan Cancer - Artificial intelligence to determine prognosis and mutation status in colorectal cancer using histological slides
-* [Visorando](https://www.visorando.com/) (from 2018): Automatic hiking maps construction from GPS tracks and hiking recommandation system
-* [AIR&D](https://www.air-d.fr/): Real-time prediction of air pollution by deep learning and 3D modeling associated with sensors
-* Pancréas GE: Grand-Est project
-
 {% include projects.md %}
 
 
