@@ -3,5 +3,3 @@
  * [Visorando]() (2019-): Automatic hiking maps construction from GPS tracks and hiking recommandation system
  * [AIR&D]() (-): Real-time prediction of air pollution by deep learning and 3D modeling associated with sensors
  * [Pancréas CGE]() (-): 
- * [SysMIFTA](https://www.era-learn.eu/network-information/networks/eracosysmed/1st-call-european-research-projects-to-demonstrate/systems-medicine-approach-to-minimize-macrophage-associated-interstitial-fibrosis-and-tubular-atrophy-in-renal-allograft-rejection) (2016-2019): Systems medicine approach to minimize macrophage-associated interstitial fibrosis and tubular atrophy in renal allograft rejection (ERACoSysmed)
- * [Sysimit](http://www.sysim.it/) (2013-2017): Systems Immunology and Image Mining in Translational Tissue Biomarker Research: Mining the spatial patterns of adaptive immune responses to persisting tissue antigens to exploit the full predictive potential of protocol biopsies in transplantation and cancer research (BMBF)
