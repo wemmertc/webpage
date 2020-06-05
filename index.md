@@ -18,7 +18,7 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 * [AIR&D](https://www.air-d.fr/): Real-time prediction of air pollution by deep learning and 3D modeling associated with sensors
 * Pancréas GE: Grand-Est project
 
-
+* test
 {% include projects.md %}
 
 
