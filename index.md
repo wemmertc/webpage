@@ -24,6 +24,9 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 ## Research supervision
 
 #### Current PhD researchers
+
+{% include phd_students.md %}
+
 * Xavier Jurado: PhD in collaboration with [AIR&D](https://www.air-d.fr/) co-supervised by José Vazquez (from 12/2018)
 * Florian Allender: PhD in collaboration with IGG team co-supervised by Jean-Michel Dischler and Rémi Allègre (from 09/2018)
 * Jelica Vasiljevic: PhD in collaboration with University of Belgrade (from 10/2017)
