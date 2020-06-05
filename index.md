@@ -18,6 +18,10 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 * [AIR&D](https://www.air-d.fr/): Real-time prediction of air pollution by deep learning and 3D modeling associated with sensors
 * Pancréas GE: Grand-Est project
 
+
+{% include projects.md %}
+
+
 #### Past activities
 
 * MicMod-I2T (2017-2020): BMBF - Modular image analysis platform to integrate microscopic data from biopsies into mathematical models of immune cell-target interaction
