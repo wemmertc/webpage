@@ -49,7 +49,7 @@ A complete list of all my publications can be found on the [ICube publications s
 
 * Pelaccia, T., Forestier, G. and Wemmert, C. (2019)  
 [**Deconstructing the diagnostic reasoning of human versus artificial intelligence**](https://doi.org/10.1503/cmaj.190506)  
-Canadian Medical Association Journal, 2019, Vol. 191(48), pp. E1332 - [<img src="./assets/images/pdf.png" width=30px />](./publications/cmaj2019.pdf)
+Canadian Medical Association Journal, 2019, Vol. 191(48), pp. E1332 - [![]()./assets/images/pdf.png)](./publications/cmaj2019.pdf)
 
 * A. Grote , N. Schaadt , G. Forestier , C. Wemmert, F. Feuerhake (2018)  
 [**Crowdsourcing of Histological Image Labeling and Object Delineation by Medical Students**](https://doi.org/10.1109/TMI.2018.2883237)  
