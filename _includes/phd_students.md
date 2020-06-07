@@ -1,4 +1,4 @@
- * [Florian Allender]() (09/2018-): **  
+ * [Florian Allender](https://www.linkedin.com/in/florian-allender-269986136/?originalSubdomain=fr) (09/2018-): *Textures and deep learning: from the control of synthesis methods for graphical applications to the validation of recognition methods in histopathological images*  
 PhD co-supervised by Jean-Michel Dischler and Rémi Allègre
  * [Xavier Jurado]() (12/2018-): *Real-time prediction of air pollution by deep learning and 3D modeling associated with sensors*  
 PhD in collaboration with AIR&D co-supervised by José Vazquez
