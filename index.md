@@ -27,13 +27,10 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 
 {% include phd_students.md %}
 
-* Xavier Jurado: PhD in collaboration with [AIR&D](https://www.air-d.fr/) co-supervised by José Vazquez (from 12/2018)
-* Florian Allender: PhD in collaboration with IGG team co-supervised by Jean-Michel Dischler and Rémi Allègre (from 09/2018)
-* Jelica Vasiljevic: PhD in collaboration with University of Belgrade (from 10/2017)
-* Arnaud Abreu: PhD in collaboration with Roche France and Oncopôle Toulouse (from 10/2016)
-* Nicolas Vernhet: PhD in the project Radial in collaboration with [IRCAD](https://www.ircad.fr/) (from 10/2016)
-
 #### Graduated
+
+{% include graduated.md %}
+
 * [Bruno Belarte](https://www.linkedin.com/in/bruno-belarte-7b063b83): PhD in 2014 - now Senior Development Engineer at DisplayLink in Cambridge, UK. (co-supervised with [G. Forestier](https://germain-forestier.info/))
 * [Aymen Sellaouti](https://www.linkedin.com/in/aymen-sellaouti-b0427731/): PhD in 2015 - now Associate Professor at INSAT Tunis, Tunisia (co-supervised with A. Deruyver)
 * [Germain Forestier](https://germain-forestier.info/): PhD in 2010 - now Full Professor at Université de Haute-Alsace (co-supervised with [P. Gançarski](https://sdc.icube.unistra.fr/en/index.php?title=Pierre_Gan%C3%A7arski))
