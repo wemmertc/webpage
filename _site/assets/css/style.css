@@ -320,7 +320,7 @@ footer { width: 130px; position: fixed; left: 50%; margin-left: -530px; bottom: 
 
 .ref { margin-bottom: 10px; }
 
-.abstract { display: none; border: 1px #778899 solid; padding: 3px; background-color: #222222; }
+.abstract { display: none; border: 1px #778899 solid; border-radius: 3px; padding: 3px; color: #DDEEEE; background-color: #333333; }
 
 .bibtex { display: none; }
 

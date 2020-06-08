@@ -522,8 +522,10 @@ footer {
 .abstract {
   display: none;
   border: 1px #778899 solid;
+  border-radius: 3px;
   padding: 3px;
-  background-color: #222222;
+  color: #DDEEEE;
+  background-color: #333333;
 }
 
 .bibtex {
