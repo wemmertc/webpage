@@ -33,11 +33,43 @@ $(function() {
 });
 
 
-function toggleInfos(pub) {
-  var infos = document.getElementById(pub+"_infos");
-  if(infos.style.display == 'none') {
-    infos.style.display = 'block';
-  } else {
-    infos.style.display = 'none';
+
+function highlight(pub) {
+    pub.style.border = "1px #778899 solid";
+    pub.style.padding = "3px 3px 3px 3px";
+    pub.style.background = "#CCDDEE";
+}
+
+function lowlight(pub) {
+    pub.style.border = "none";
+    pub.style.padding = "none";
+    pub.style.background = "none";
+}
+
+function toggleInfos(pub, item) {
+  var publi = document.getElementById(pub);
+  var bibtex = document.getElementById(pub+"_bibtex");
+  var abstract = document.getElementById(pub+"_abstract");
+
+  if(item=='bibtex') {
+    if(bibtex.style.display == 'none') {
+      bibtex.style.display = 'block';
+      highlight(publi);
+    } else {
+      bibtex.style.display = 'none';
+      lowlight(publi);
+    }
+    abstract.style.display = 'none';
+  }
+
+  if(item=='abstract') {
+    if(abstract.style.display == 'none') {
+      abstract.style.display = 'block';
+      highlight(publi);
+    } else {
+      abstract.style.display = 'none';
+      lowlight(publi);
+    }
+    bibtex.style.display = 'none';
   }
 }
