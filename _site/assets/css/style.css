@@ -320,6 +320,8 @@ footer { width: 130px; position: fixed; left: 50%; margin-left: -530px; bottom: 
 
 .ref { margin-bottom: 10px; }
 
-.publi { display: none; }
+.abstract { display: none; border: 1px #778899 solid; padding: 3px; background-color: #222222; }
+
+.bibtex { display: none; }
 
 /*# sourceMappingURL=style.css.map */
