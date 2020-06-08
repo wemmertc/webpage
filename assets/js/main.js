@@ -34,7 +34,7 @@ $(function() {
 
 
 function toggleInfos(pub) {
-  var divContenu = document.getElementsById(pub);
+  var divContenu = document.getElementById(pub);
   if(divContenu.style.display == 'none') {
     divContenu.style.display = 'block';
   } else {
