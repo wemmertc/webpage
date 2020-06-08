@@ -49,7 +49,7 @@ A complete list of all my publications can be found on the [ICube publications s
 
 * Pelaccia, T., Forestier, G. and Wemmert, C. (2019)  
 [**Deconstructing the diagnostic reasoning of human versus artificial intelligence**](https://doi.org/10.1503/cmaj.190506)  
-Canadian Medical Association Journal, 2019, Vol. 191(48), pp. E1332 - [![pdf](./assets/images/pdf.png){:height="16px"}](./publications/cmaj2019.pdf)
+Canadian Medical Association Journal, 2019, Vol. 191(48), pp. E1332 - [![pdf](./assets/images/pdf.png){: style="height=16px"}](./publications/cmaj2019.pdf)
 
 <div onclick="yop">
   * test
