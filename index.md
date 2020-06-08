@@ -50,10 +50,6 @@ A complete list of all my publications can be found on the [ICube publications s
 {% include publications.md %}
 
 
-* N. Schaadt, J. Alfonso, R. Schönmeyer, A. Grote, G. Forestier, C. Wemmert, et al.  (2017)
-[**Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis**](http://doi.org/10.1007/s10549-017-4239-z)  
-Breast Cancer Res Treat 164 (2), 305-315. 2017 Apr 25 - [[PDF]](./publications/brct2017.pdf)
-
 * A. Cornuéjols, C. Wemmert, P. Gançarski, Y. Bennani (2017)  
 [**Collaborative Clustering: Why, When, What and How**](https://doi.org/10.1016/j.inffus.2017.04.008)  
 Information Fusion, Elsevier, Volume 39, January 2018, Pages 81-95 - [[PDF]](./publications/if2017.pdf)
