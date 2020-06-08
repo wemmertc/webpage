@@ -13,3 +13,6 @@ Canadian Medical Association Journal, Vol. 191(48), pp. E1332 - [[Abstract]](jav
   publisher={Can Med Assoc}
 }
 ```  
+ * {:.publi  #cmaj2019_abstract} ``` 
+This article...
+```  
