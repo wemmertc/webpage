@@ -20,7 +20,16 @@ This article...
 [**Crowdsourcing of Histological Image Labeling and Object Delineation by Medical Students**](https://doi.org/10.1109/TMI.2018.2883237)  
 IEEE Transactions on Medical Imaging, 38(5), 1284-1294 - [[Abstract]](javascript: toggleInfos('tmi2018','abstract')) - [[BibTeX]](javascript: toggleInfos('tmi2018','bibtex')) - [[PDF]](./publications/tmi2018.pdf)  
  * {:.publi  #tmi2018_bibtex} ```latex 
-
+@article{grote2018crowdsourcing,
+  title={Crowdsourcing of Histological Image Labeling and Object Delineation by Medical Students},
+  author={Grote, Anne and Schaadt, Nadine S and Forestier, Germain and Wemmert, C{\'e}dric and Feuerhake, Friedrich},
+  journal={IEEE transactions on medical imaging},
+  volume={38},
+  number={5},
+  pages={1284--1294},
+  year={2018},
+  publisher={IEEE}
+}
 ```  
  * {:.publi  #tmi2018_abstract} ``` 
 
