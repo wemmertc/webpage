@@ -38,12 +38,14 @@ function highlight(pub) {
     pub.style.border = "1px #778899 solid";
     pub.style.padding = "3px 3px 3px 3px";
     pub.style.background = "#CCDDEE";
+    pub.style.marginBottom = "1px";
 }
 
 function lowlight(pub) {
     pub.style.border = "none";
     pub.style.padding = "none";
     pub.style.background = "none";
+    pub.style.marginBottom = "10px";
 }
 
 function toggleInfos(pub, item) {
