@@ -16,3 +16,12 @@ Canadian Medical Association Journal, Vol. 191(48), pp. E1332 - [[Abstract]](jav
  * {:.publi  #cmaj2019_abstract} ``` 
 This article...
 ```  
+ * {: .ref #tmi2018}Grote, A., Schaadt, N., Forestier, G., Wemmert, C. and Feuerhake, F.(2018)  
+[**Crowdsourcing of Histological Image Labeling and Object Delineation by Medical Students**](https://doi.org/10.1109/TMI.2018.2883237)  
+IEEE Transactions on Medical Imaging, 38(5), 1284-1294 - [[Abstract]](javascript: toggleInfos('tmi2018','abstract')) - [[BibTeX]](javascript: toggleInfos('tmi2018','bibtex')) - [[PDF]](./publications/tmi2018.pdf)  
+ * {:.publi  #tmi2018_bibtex} ```latex 
+
+```  
+ * {:.publi  #tmi2018_abstract} ``` 
+
+```  
