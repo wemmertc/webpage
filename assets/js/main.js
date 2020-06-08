@@ -34,10 +34,10 @@ $(function() {
 
 
 function toggleInfos(pub) {
-  var divContenu = document.getElementById(pub);
-  if(divContenu.style.display == 'none') {
-    divContenu.style.display = 'block';
+  var infos = document.getElementById(pub+"_infos");
+  if(infos.style.display == 'none') {
+    infos.style.display = 'block';
   } else {
-    divContenu.style.display = 'none';
+    infos.style.display = 'none';
   }
 }
