@@ -31,11 +31,6 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 
 {% include graduated.md %}
 
-* [Bruno Belarte](https://www.linkedin.com/in/bruno-belarte-7b063b83): PhD in 2014 - now Senior Development Engineer at DisplayLink in Cambridge, UK. (co-supervised with [G. Forestier](https://germain-forestier.info/))
-* [Aymen Sellaouti](https://www.linkedin.com/in/aymen-sellaouti-b0427731/): PhD in 2015 - now Associate Professor at INSAT Tunis, Tunisia (co-supervised with A. Deruyver)
-* [Germain Forestier](https://germain-forestier.info/): PhD in 2010 - now Full Professor at Université de Haute-Alsace (co-supervised with [P. Gançarski](https://sdc.icube.unistra.fr/en/index.php?title=Pierre_Gan%C3%A7arski))
-* [Sébastien Derivaux](https://www.linkedin.com/in/sebastienderivaux/): PhD in 2009 - now freelance Data Science Architect (co-supervised with S. Lefèvre)
-
 #### Postdocs
 * Thomas Lampert: Postdoctoral position on the project SysMIFTA (11/2017-09/2019)
 * Odyssée Merveille: Postdoctoral position in the IdEx project from University of Strasbourg (10/2017-03/2019)
@@ -48,16 +43,6 @@ A complete list of all my publications can be found on the [ICube publications s
 #### Some selected publications
 
 {% include publications.md %}
-
-
-
-* J. Alfonso, N. Schaadt, R. Schönmeyer, N. Brieu , G. Forestier, C. Wemmert , F. Feuerhake , H. Hatzikirou  (2016)
-[**In-silico insights on the prognostic potential of immune cell infiltration patterns in the breast lobular epithelium**](https://doi.org/10.1038/srep33322)  
-Scientific Reports, Volume 6 - 2016 - [[PDF]](./publications/srep2016.pdf)
-
-* G. Forestier , C. Wemmert (2016)
-[**Semi-supervised learning using multiple clusterings with limited labeled data**]()  
-Information Sciences, Elsevier, Volume 361-362 , page 48-65 - [[PDF]](./publications/is2016.pdf) [[Source code]](https://germain-forestier.info/src/is2016/)
 
 
 * * *
