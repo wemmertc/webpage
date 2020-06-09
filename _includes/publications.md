@@ -46,6 +46,23 @@ IEEE Transactions on Medical Imaging, 38(5), 1284-1294 - [[Abstract]](javascript
 ```  
  * {:.abstract  #tmi2018_abstract} Crowdsourcing in pathology has been performed on tasks that are assumed to be manageable by nonexperts. Demand remains high for annotations of more complex elements in digital microscopic images, such as anatomical structures. Therefore, this paper investigates conditions to enable crowdsourced annotations of high-level image objects, a complex task considered to require expert knowledge. Seventy six medical students without specific domain knowledge who voluntarily participated in three experiments solved two relevant annotation tasks on histopathological images: 1) labeling of images showing tissue regions and 2) delineation of morphologically defined image objects.  
 We focus on methods to ensure sufficient annotation quality including several tests on the required number of participants and on the correlation of participants' performance between tasks. In a set up simulating annotation of images with limited ground truth, we validated the feasibility of a confidence score using full ground truth. For this, we computed a majority vote using weighting factors based on individual assessment of contributors against scattered gold standard annotated by pathologists. In conclusion, we provide guidance for task design and quality control to enable a crowdsourced approach to obtain accurate annotations required in the era of digital pathology.
+ * {: .ref #if2018}Cornuéjols, A., Wemmert, C., Gançarski, P. and Bennani, Y. (2018)  
+[**Collaborative Clustering: Why, When, What and How**](https://doi.org/10.1016/j.inffus.2017.04.008)  
+Information Fusion, Volume 39, Pages 81-95 - [[Abstract]](javascript: toggleInfos('if2018','abstract')) - [[BibTeX]](javascript: toggleInfos('if2018','bibtex')) - [[PDF]](./publications/if2018.pdf)  
+ * {:.bibtex  #if2018_bibtex} ```latex 
+@article{cornuejols2018collaborative,
+  title={Collaborative clustering: Why, when, what and how},
+  author={Cornu{\'e}jols, Antoine and Wemmert, C{\'e}dric and Gan{\c{c}}arski, Pierre and Bennani, Youn{\`e}s},
+  journal={Information Fusion},
+  volume={39},
+  pages={81--95},
+  year={2018},
+  publisher={Elsevier}
+}
+```  
+ * {:.abstract  #if2018_abstract} Clustering is one type of unsupervised learning where the goal is to partition the set of objects into groups called clusters. Faced to the difficulty to design a general purpose clustering algorithm and to choose a good, let alone perfect, set of criteria for clustering a data set, one solution is to resort to a variety of clustering procedures based on different techniques, parameters and/or initializations, in order to construct one (or several) final clustering(s). The hope is that by combining several clustering solutions, each one with its own bias and imperfections, one will get a better overall solution.  
+In the cooperative clustering model, as Ensemble Clustering, a set of clustering algorithms are used in parallel on a given data set: the local results are combined to get a hopefully better overall clustering. In the collaborative framework, the goal is that each local computation, quite possibly applied to distinct data sets, benefit from the work done by the other collaborators.  
+This paper is dedicated to collaborative clustering. In particular, after a brief overview of clustering and the major issues linked to, it presents main challenges related to organize and control the collaborative process.
  * {: .ref #bcrt2017}Schaadt, N., Alfonso, J., Schönmeyer, R., Grote, A., Forestier, G., Krönke, N., Mechthild, S., Kreipe, H., Haralampos, H., Wemmert, C. and Feuerhake, F. (2017)  
 [**Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis**](http://doi.org/10.1007/s10549-017-4239-z)  
 Breast Cancer Res Treat, 164 (2), 305-315 - [[Abstract]](javascript: toggleInfos('bcrt2017','abstract')) - [[BibTeX]](javascript: toggleInfos('bcrt2017','bibtex')) - [[PDF]](./publications/bcrt2017.pdf)  
@@ -65,23 +82,6 @@ Breast Cancer Res Treat, 164 (2), 305-315 - [[Abstract]](javascript: toggleInfos
 Methods: Lymphocyte and macrophage distributions were analyzed in the anatomical context of the resting mammary gland in immunohistochemically stained digital whole slide images obtained from 53 reduction mammoplasty specimens. Our image analysis workflow included automated regions of interest detection, immune cell recognition, and co-registration of regions of interest.  
 Results: In normal lobular epithelium, seven CD8+ lymphocytes per 100 epithelial cells were present on average and about 70% of this T-lymphocyte population was lined up along the basal cell layer in close proximity to the epithelium. The density of CD8+ T-cell was 1.6 fold higher in the luteal than in the follicular phase in spontaneous menstrual cycles and 1.4 fold increased under influence of oral contraceptives, and not co-localized with epithelial proliferation. CD4+ T-cells were infrequent. Abundant CD163+ macrophages were widely spread, including the interstitial compartment, with minor variation during the menstrual cycle.  
 Conclusions: Spatial patterns of different immune cell subtypes determine the range of normal, as opposed to inflammatory conditions of the breast tissue microenvironment. Advanced image analysis enables quantification of hormonal effects, refines lymphocytic lobulitis, and shows potential for comprehensive biopsy evaluation in oncoimmunology
- * {: .ref #if2018}Cornuéjols, A., Wemmert, C., Gançarski, P. and Bennani, Y. (2018)  
-[**Collaborative Clustering: Why, When, What and How**](https://doi.org/10.1016/j.inffus.2017.04.008)  
-Information Fusion, Volume 39, Pages 81-95 - [[Abstract]](javascript: toggleInfos('if2018','abstract')) - [[BibTeX]](javascript: toggleInfos('if2018','bibtex')) - [[PDF]](./publications/if2018.pdf)  
- * {:.bibtex  #if2018_bibtex} ```latex 
-@article{cornuejols2018collaborative,
-  title={Collaborative clustering: Why, when, what and how},
-  author={Cornu{\'e}jols, Antoine and Wemmert, C{\'e}dric and Gan{\c{c}}arski, Pierre and Bennani, Youn{\`e}s},
-  journal={Information Fusion},
-  volume={39},
-  pages={81--95},
-  year={2018},
-  publisher={Elsevier}
-}
-```  
- * {:.abstract  #if2018_abstract} Clustering is one type of unsupervised learning where the goal is to partition the set of objects into groups called clusters. Faced to the difficulty to design a general purpose clustering algorithm and to choose a good, let alone perfect, set of criteria for clustering a data set, one solution is to resort to a variety of clustering procedures based on different techniques, parameters and/or initializations, in order to construct one (or several) final clustering(s). The hope is that by combining several clustering solutions, each one with its own bias and imperfections, one will get a better overall solution.  
-In the cooperative clustering model, as Ensemble Clustering, a set of clustering algorithms are used in parallel on a given data set: the local results are combined to get a hopefully better overall clustering. In the collaborative framework, the goal is that each local computation, quite possibly applied to distinct data sets, benefit from the work done by the other collaborators.  
-This paper is dedicated to collaborative clustering. In particular, after a brief overview of clustering and the major issues linked to, it presents main challenges related to organize and control the collaborative process.
  * {: .ref #cbm2016}Apou, G., Schaadt, N., Naegel, B., Forestier, G., Schönmeyer, R., Feuerhake, F., Wemmert, C. and Grote, A. (2016)  
 [**Detection of lobular structures in normal breast tissue**](https://doi.org/10.1016/j.compbiomed.2016.05.004)  
 Computers in Biology and Medicine, pages 91-102, Volume 74 - [[Abstract]](javascript: toggleInfos('cbm2016','abstract')) - [[BibTeX]](javascript: toggleInfos('cbm2016','bibtex')) - [[PDF]](./publications/cbm2016.pdf)  
