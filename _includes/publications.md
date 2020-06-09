@@ -1,3 +1,18 @@
+ * {: .ref #ae2019}Jurado, X., Reiminger, N., Vazquez, J., Wemmert, C., Dufresne, M., Blond, N. and Wertel, J. (2019)  
+[**Assessment of mean annual NO2 concentration based on a partial dataset**](https://doi.org/10.1016/j.atmosenv.2019.117087)  
+Atmospheric Environment, 221, 117087 - [[Abstract]](javascript: toggleInfos('ae2019','abstract')) - [[BibTeX]](javascript: toggleInfos('ae2019','bibtex')) - [[PDF]](./publications/ae2019.pdf)  
+ * {:.bibtex  #ae2019_bibtex} ```latex 
+@article{jurado2020assessment,
+  title={Assessment of mean annual NO2 concentration based on a partial dataset},
+  author={Jurado, Xavier and Reiminger, Nicolas and Vazquez, Jos{\'e} and Wemmert, C{\'e}dric and Dufresne, Matthieu and Blond, Nad{\`e}ge and Wertel, Jonathan},
+  journal={Atmospheric Environment},
+  volume={221},
+  pages={117087},
+  year={2020},
+  publisher={Elsevier}
+}
+```  
+ * {:.abstract  #ae2019_abstract} NO2 is a pollutant harmful to both health and the environment. The European Union and the World Health Organization have developed guidelines in terms of pollutant. The value of 40 μg/m3 is set by both entities as the annual mean NO2 concentration not to be exceeded to prevent risks for human health. To assess this given value, yearlong in situ measurements are required. However, sometimes only partial data are available, such as having only NOx (NO + NO2) information, on the one hand, and, on the other hand, brief NO2 measurements performed over few months. To overcome the first hurdle, several methods exist in the literature to transform NOx data into NO2 data. The method of Derwent and Middleton is the most appropriate for France with less than 8% of deviation and even less deviation when considering rural and urban sites. For all values, NOx concentrations behave as expected with higher concentrations in autumn and winter than in spring and summer. However, for NO2 this trend changes around 80 μg/m³ for which the spring and summer values are higher. Therefore, to maximize measurements to assess an upper limit on annual NO2 concentration over a short period of time, those measurements should be done in winter if an annual concentration of less than 80 μg/m3 is expected, otherwise they should carry out in summer. To tackle the second issue, a second order polynomial approach is built on a Paris dataset covering years between 2013 and 2017 to determine annual mean concentrations with monthly mean concentrations and gives an overall error of 10%. The law built on Paris was then tested on several regions in France for the same period and resulted in predicted values with a mean error of about 15% compared to the measured ones. In the end, the presented methodology allows covering twelve times more ground with a single NO2 or NOx sensor with an acceptable error.
  * {: .ref #cmaj2019}Pelaccia, T., Forestier, G. and Wemmert, C. (2019)  
 [**Deconstructing the diagnostic reasoning of human versus artificial intelligence**](https://doi.org/10.1503/cmaj.190506)  
 Canadian Medical Association Journal, Vol. 191(48), pp. E1332 - [[Abstract]](javascript: toggleInfos('cmaj2019','abstract')) - [[BibTeX]](javascript: toggleInfos('cmaj2019','bibtex')) - [[PDF]](./publications/cmaj2019.pdf)  
@@ -31,7 +46,7 @@ IEEE Transactions on Medical Imaging, 38(5), 1284-1294 - [[Abstract]](javascript
 ```  
  * {:.abstract  #tmi2018_abstract} Crowdsourcing in pathology has been performed on tasks that are assumed to be manageable by nonexperts. Demand remains high for annotations of more complex elements in digital microscopic images, such as anatomical structures. Therefore, this paper investigates conditions to enable crowdsourced annotations of high-level image objects, a complex task considered to require expert knowledge. Seventy six medical students without specific domain knowledge who voluntarily participated in three experiments solved two relevant annotation tasks on histopathological images: 1) labeling of images showing tissue regions and 2) delineation of morphologically defined image objects.  
 We focus on methods to ensure sufficient annotation quality including several tests on the required number of participants and on the correlation of participants' performance between tasks. In a set up simulating annotation of images with limited ground truth, we validated the feasibility of a confidence score using full ground truth. For this, we computed a majority vote using weighting factors based on individual assessment of contributors against scattered gold standard annotated by pathologists. In conclusion, we provide guidance for task design and quality control to enable a crowdsourced approach to obtain accurate annotations required in the era of digital pathology.
- * {: .ref #bcrt2017}Schaadt, N., Juan-Carlos, A., Ralf, S., Grote, A., Forestier, G., Krönke, N., Mechthild, S., Hans, K., Haralampos, H., Wemmert, C. and Feuerhake, F. (2017)  
+ * {: .ref #bcrt2017}Schaadt, N., Alfonso, J., Schönmeyer, R., Grote, A., Forestier, G., Krönke, N., Mechthild, S., Hans, K., Haralampos, H., Wemmert, C. and Feuerhake, F. (2017)  
 [**Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis**](http://doi.org/10.1007/s10549-017-4239-z)  
 Breast Cancer Res Treat, 164 (2), 305-315 - [[Abstract]](javascript: toggleInfos('bcrt2017','abstract')) - [[BibTeX]](javascript: toggleInfos('bcrt2017','bibtex')) - [[PDF]](./publications/bcrt2017.pdf)  
  * {:.bibtex  #bcrt2017_bibtex} ```latex 
