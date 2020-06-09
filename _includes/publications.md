@@ -65,10 +65,10 @@ Breast Cancer Res Treat, 164 (2), 305-315 - [[Abstract]](javascript: toggleInfos
 Methods: Lymphocyte and macrophage distributions were analyzed in the anatomical context of the resting mammary gland in immunohistochemically stained digital whole slide images obtained from 53 reduction mammoplasty specimens. Our image analysis workflow included automated regions of interest detection, immune cell recognition, and co-registration of regions of interest.  
 Results: In normal lobular epithelium, seven CD8+ lymphocytes per 100 epithelial cells were present on average and about 70% of this T-lymphocyte population was lined up along the basal cell layer in close proximity to the epithelium. The density of CD8+ T-cell was 1.6 fold higher in the luteal than in the follicular phase in spontaneous menstrual cycles and 1.4 fold increased under influence of oral contraceptives, and not co-localized with epithelial proliferation. CD4+ T-cells were infrequent. Abundant CD163+ macrophages were widely spread, including the interstitial compartment, with minor variation during the menstrual cycle.  
 Conclusions: Spatial patterns of different immune cell subtypes determine the range of normal, as opposed to inflammatory conditions of the breast tissue microenvironment. Advanced image analysis enables quantification of hormonal effects, refines lymphocytic lobulitis, and shows potential for comprehensive biopsy evaluation in oncoimmunology
- * {: .ref #if2017}Cornuéjols, A., Wemmert, C., Gançarski, P. and Bennani, Y. (2017)  
+ * {: .ref #if2018}Cornuéjols, A., Wemmert, C., Gançarski, P. and Bennani, Y. (2018)  
 [**Collaborative Clustering: Why, When, What and How**](https://doi.org/10.1016/j.inffus.2017.04.008)  
-Information Fusion, Volume 39, Pages 81-95 - [[Abstract]](javascript: toggleInfos('if2017','abstract')) - [[BibTeX]](javascript: toggleInfos('if2017','bibtex')) - [[PDF]](./publications/if2017.pdf)  
- * {:.bibtex  #if2017_bibtex} ```latex 
+Information Fusion, Volume 39, Pages 81-95 - [[Abstract]](javascript: toggleInfos('if2018','abstract')) - [[BibTeX]](javascript: toggleInfos('if2018','bibtex')) - [[PDF]](./publications/if2018.pdf)  
+ * {:.bibtex  #if2018_bibtex} ```latex 
 @article{cornuejols2018collaborative,
   title={Collaborative clustering: Why, when, what and how},
   author={Cornu{\'e}jols, Antoine and Wemmert, C{\'e}dric and Gan{\c{c}}arski, Pierre and Bennani, Youn{\`e}s},
@@ -79,10 +79,8 @@ Information Fusion, Volume 39, Pages 81-95 - [[Abstract]](javascript: toggleInfo
   publisher={Elsevier}
 }
 ```  
- * {:.abstract  #if2017_abstract} Clustering is one type of unsupervised learning where the goal is to partition the set of objects into groups called clusters. Faced to the difficulty to design a general purpose clustering algorithm and to choose a good, let alone perfect, set of criteria for clustering a data set, one solution is to resort to a variety of clustering procedures based on different techniques, parameters and/or initializations, in order to construct one (or several) final clustering(s). The hope is that by combining several clustering solutions, each one with its own bias and imperfections, one will get a better overall solution.
-
-In the cooperative clustering model, as Ensemble Clustering, a set of clustering algorithms are used in parallel on a given data set: the local results are combined to get a hopefully better overall clustering. In the collaborative framework, the goal is that each local computation, quite possibly applied to distinct data sets, benefit from the work done by the other collaborators.
-
+ * {:.abstract  #if2018_abstract} Clustering is one type of unsupervised learning where the goal is to partition the set of objects into groups called clusters. Faced to the difficulty to design a general purpose clustering algorithm and to choose a good, let alone perfect, set of criteria for clustering a data set, one solution is to resort to a variety of clustering procedures based on different techniques, parameters and/or initializations, in order to construct one (or several) final clustering(s). The hope is that by combining several clustering solutions, each one with its own bias and imperfections, one will get a better overall solution.  
+In the cooperative clustering model, as Ensemble Clustering, a set of clustering algorithms are used in parallel on a given data set: the local results are combined to get a hopefully better overall clustering. In the collaborative framework, the goal is that each local computation, quite possibly applied to distinct data sets, benefit from the work done by the other collaborators.  
 This paper is dedicated to collaborative clustering. In particular, after a brief overview of clustering and the major issues linked to, it presents main challenges related to organize and control the collaborative process.
  * {: .ref #cbm2016}Apou, G., Schaadt, N., Naegel, B., Forestier, G., Schönmeyer, R., Feuerhake, F., Wemmert, C. and Grote, A. (2016)  
 [**Detection of lobular structures in normal breast tissue**](https://doi.org/10.1016/j.compbiomed.2016.05.004)  
