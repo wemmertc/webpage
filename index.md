@@ -50,17 +50,10 @@ A complete list of all my publications can be found on the [ICube publications s
 {% include publications.md %}
 
 
-* A. Cornuéjols, C. Wemmert, P. Gançarski, Y. Bennani (2017)  
-[**Collaborative Clustering: Why, When, What and How**](https://doi.org/10.1016/j.inffus.2017.04.008)  
-Information Fusion, Elsevier, Volume 39, January 2018, Pages 81-95 - [[PDF]](./publications/if2017.pdf)
 
 * J. Alfonso, N. Schaadt, R. Schönmeyer, N. Brieu , G. Forestier, C. Wemmert , F. Feuerhake , H. Hatzikirou  (2016)
 [**In-silico insights on the prognostic potential of immune cell infiltration patterns in the breast lobular epithelium**](https://doi.org/10.1038/srep33322)  
 Scientific Reports, Volume 6 - 2016 - [[PDF]](./publications/srep2016.pdf)
-
-* G. Apou, N. Schaadt , B. Naegel, G. Forestier , R. Schönmeyer , F. Feuerhake , C. Wemmert, A. Grote (2016)  
-[**Detection of lobular structures in normal breast tissue**](https://doi.org/10.1016/j.compbiomed.2016.05.004)  
-Computers in Biology and Medicine, Elsevier, Volume 74, pages 91-102 - [[PDF]](./publications/cbm2016.pdf)
 
 * G. Forestier , C. Wemmert (2016)
 [**Semi-supervised learning using multiple clusterings with limited labeled data**]()  
