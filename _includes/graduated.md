@@ -2,3 +2,5 @@
 Now Full Professor at Université de Haute-Alsace
  * [Sébastien Derivaux](https://www.linkedin.com/in/sebastienderivaux/) (09/2005-05/2009): *Construction and classification of objects from remote sensing imagery using an iterative approach guided by domain knowledge*  
 Now freelance Data Science Architect
+ * [Bruno Belarte](https://www.linkedin.com/in/bruno-belarte-7b063b83) (09/2011-09/2014): *Extraction, analysis and use of spatial relationships between objects of interest for knowledge-guided analysis of remote sensing imagery*  
+Now Senior Development Engineer at DisplayLink in Cambridge, UK
