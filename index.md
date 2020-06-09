@@ -32,10 +32,8 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 {% include graduated.md %}
 
 #### Postdocs
-* Thomas Lampert: Postdoctoral position on the project SysMIFTA (11/2017-09/2019)
-* Odyssée Merveille: Postdoctoral position in the IdEx project from University of Strasbourg (10/2017-03/2019)
-* Maja Temerinac-Ott: Postdoctoral position on the project SysMIFTA (05/2016-11/2017)
-* Juliane Krüger: Postdoctoral position on a collaborative project with Roche GmbH (2010-2013)
+
+{% include postdocs.md %}
 
 ## Publications
 A complete list of all my publications can be found on the [ICube publications server](https://icube-publis.unistra.fr/appli.php?author=wemmert).
