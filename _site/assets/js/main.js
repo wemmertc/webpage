@@ -37,7 +37,7 @@ $(function() {
 function highlight(pub) {
     pub.style.border = "1px #778899 solid";
     pub.style.padding = "3px 3px 3px 3px";
-    pub.style.background = "#CCDDEE";
+    pub.style.background = "#F1F1F1";
     pub.style.marginBottom = "1px";
 }
 
