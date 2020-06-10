@@ -31,7 +31,7 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 
 {% include graduated.md %}
 
-#### Postdocs
+#### Postdocs and engineers
 
 {% include postdocs.md %}
 
