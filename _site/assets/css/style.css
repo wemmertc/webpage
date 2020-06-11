@@ -326,4 +326,6 @@ footer { width: 130px; position: fixed; left: 50%; margin-left: -530px; bottom: 
 
 .main { color: #4276b6; font-weight: 800; }
 
+.img_right { float: right; }
+
 /*# sourceMappingURL=style.css.map */

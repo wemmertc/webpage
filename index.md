@@ -2,14 +2,17 @@
 layout: default
 ---
 
+# About
 
-# Research
-
+![photo](./assets/images/me.jpg){: .img_right}
 Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/index.php?title=Home) of the [Engineering, Computer and Imaging Sciences Laboratory](https://icube.unistra.fr) of the [University of Strasbourg](https://unistra.fr)
 
 **Keywords**: data science, machine learning, histopathological images analysis
 
 
+* * *
+
+# Research
 
 ## Current projects and collaborations
 
@@ -18,7 +21,6 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 #### Past activities
 
 {% include past_projects.md %}
-
 
 
 ## Research supervision
@@ -42,6 +44,9 @@ A complete list of all my publications can be found on the [ICube publications s
 
 {% include publications.md %}
 
+* * *
+
+# Teaching
 
 * * *
 
