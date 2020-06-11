@@ -539,8 +539,10 @@ footer {
   font-weight:800;
 }
 
-.img_right {
+.identity {
   float: right;
-  width: 100px;
-  border: 1px solid red; 
+  width: 120px;
+  padding: 2px 2px 2px 2px;
+  border: 1px solid #EEEEEE;
+  border-radius: 2px;
 }

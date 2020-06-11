@@ -326,6 +326,6 @@ footer { width: 130px; position: fixed; left: 50%; margin-left: -530px; bottom: 
 
 .main { color: #4276b6; font-weight: 800; }
 
-.img_right { float: right; width: 100px; border: 1px solid red; }
+.identity { float: right; width: 120px; padding: 2px 2px 2px 2px; border: 1px solid #EEEEEE; border-radius: 2px; }
 
 /*# sourceMappingURL=style.css.map */

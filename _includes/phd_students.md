@@ -4,7 +4,7 @@ PhD co-supervised by Jean-Michel Dischler and Rémi Allègre
 PhD in collaboration with AIR&D co-supervised by José Vazquez
  * [Jelica Vasiljevic](){: .main} (10/2017-): **Domain adaptation with deep neural networks for histopathological images**  
 PhD in collaboration with University of Belgrade co-supervised by Thomas Lampert and Srdan Stankovic
- * [Arnaud Abreu](){: .main} (10/2016-): **Convolutional neural networks and hierarchical representations: applications and perspectives for digital pathology**  
-PhD in collaboration with Roche France and Oncopôle Toulouse co-supervised by Pierre Brousset, Benoît Naegel and François-Xavier Frenois
  * [Nicolas Vernhet](){: .main} (03/2017-): **Evaluation of the predictive potential of radiomics for the characterization of liver tumours**  
 PhD in collaboration with IRCAD co-supervised by Nicolas Lachiche and Vincent Agnus
+ * [Arnaud Abreu](){: .main} (10/2016-): **Convolutional neural networks and hierarchical representations: applications and perspectives for digital pathology**  
+PhD in collaboration with Roche France and Oncopôle Toulouse co-supervised by Pierre Brousset, Benoît Naegel and François-Xavier Frenois
