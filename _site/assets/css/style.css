@@ -324,6 +324,6 @@ footer { width: 130px; position: fixed; left: 50%; margin-left: -530px; bottom: 
 
 .bibtex { display: none; }
 
-.main { color: #EEEE22; }
+.main { color: #2222EE; font-weight: bolder; }
 
 /*# sourceMappingURL=style.css.map */
