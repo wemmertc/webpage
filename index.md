@@ -51,7 +51,7 @@ A complete list of all my publications can be found on the [ICube publications s
 
 I am teaching mainly in the Computer Science department of the [Technology Institute Robert Schuman](iutrs.unistra.fr) of the [University of Strasbourg](unistra.fr).
 
-* Web services with JEE
+* Web services with JEE (also taught at [ENSISA](ensisa.uha.fr))
 * Introduction to networks
 * Networks programming
 * Graph theory
