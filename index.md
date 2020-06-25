@@ -10,6 +10,7 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 
 **Keywords**: data science, machine learning, histopathological images analysis
 
+{% include contact.md %}
 
 * * *
 
