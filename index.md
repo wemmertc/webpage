@@ -16,6 +16,8 @@ Full professor in Computer Science, [SDC team](https://sdc.icube.unistra.fr/en/i
 
 # Research
 
+**Open position:** 36 months postdoc position on *Deep learning and data mining for multimodal image analysis in neuroradiology and histopathology* - [find out more here](./assets/files/2020___mi_EDGE_postdoc_position.pdf)
+
 ## Current projects and collaborations
 
 {% include projects.md %}
