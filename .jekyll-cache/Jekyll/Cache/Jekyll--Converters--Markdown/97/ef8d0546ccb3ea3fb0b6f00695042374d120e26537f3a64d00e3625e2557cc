@@ -1,0 +1,201 @@
+I"�e<p><img src="./assets/images/me.jpg" alt="photo" class="identity" /></p>
+
+<h1 id="about">About</h1>
+
+<p>Full professor in Computer Science, <a href="https://sdc.icube.unistra.fr/en/index.php?title=Home">SDC team</a> of the <a href="https://icube.unistra.fr">Engineering, Computer and Imaging Sciences Laboratory</a> of the <a href="https://unistra.fr">University of Strasbourg</a></p>
+
+<p><strong>Keywords</strong>: data science, machine learning, histopathological images analysis</p>
+
+<hr />
+
+<h1 id="research">Research</h1>
+
+<h2 id="current-projects-and-collaborations">Current projects and collaborations</h2>
+
+<ul>
+  <li><a href="https://wemmertc.github.io/aicolo/" class="main">AiCOLO</a> (2019-2022): Artificial intelligence to determine prognosis and mutation status in colorectal cancer using histological slides in collaboration with <a href="https://www.cgfl.fr/">CGFL Dijon</a> and <a href="https://www.irimas.uha.fr/index.php/departements/departement-informatique/">IRIMAS</a> - Funding: INSERM-Plan Cancer</li>
+  <li><a href="https://www.era-learn.eu/network-information/networks/eracosysmed/3rd-joint-transnational-call-for-european-research-projects-on-systems-medicine/modelling-cell-plasticity-at-the-invasive-edge-to-diminish-glioblastoma-early-relapse-risk" class="main">mi:EDGE</a> (2020-2023): Modelling cell plasticity at the invasive Edge to Diminish Glioblastoma Early relapse risk in collaboration with <a href="https://www.mhh.de/institute-zentren-forschungseinrichtungen/institut-fuer-pathologie">MHH (Germany)</a>, <a href="https://5x1000.humanitas.it/news/locati-massimo/">Humanitas (Italy)</a>, <a href="https://www.radboudumc.nl/en/patient-care">Radboud UMC (NL)</a> and <a href="https://www.irimas.uha.fr/index.php/departements/departement-informatique/">IRIMAS</a> - Funding: ERACoSysmed</li>
+  <li><a href="" class="main">Visorando</a> (2019-): Automatic hiking maps construction from GPS tracks and hiking recommendation system in collaboration with <a href="https://www.visorando.com/">Visorando</a> and <a href="https://www.irimas.uha.fr/index.php/departements/departement-informatique/">IRIMAS</a></li>
+  <li><a href="" class="main">AIR&amp;D</a> (2018-): Real-time prediction of air pollution by deep learning and 3D modeling associated with sensors in collaboration with <a href="https://www.air-d.fr/">AIR&amp;D</a></li>
+  <li><a href="" class="main">Pancréas CGE</a> (2019-2020): Multiparametric analysis of pancreatic ductal adenocarcinoma in collaboration with <a href="http://www.chru-strasbourg.fr/poles/Biologie/Pathologie-Departement-de">Pathology dept (HUS)</a> and <a href="https://www.canceropole-est.org/">Cancéropôle Est</a> - Funding: Région Grand-Est</li>
+</ul>
+
+<h4 id="past-activities">Past activities</h4>
+
+<ul>
+  <li><a href="https://www.era-learn.eu/network-information/networks/eracosysmed/1st-call-european-research-projects-to-demonstrate/systems-medicine-approach-to-minimize-macrophage-associated-interstitial-fibrosis-and-tubular-atrophy-in-renal-allograft-rejection" class="main">SysMIFTA</a> (2016-2019): Systems medicine approach to minimize macrophage-associated interstitial fibrosis and tubular atrophy in renal allograft rejection - Funding: ERACoSysmed</li>
+  <li><a href="http://www.sysim.it/" class="main">Sysimit</a> (2013-2017): Systems Immunology and Image Mining in Translational Tissue Biomarker Research: Mining the spatial patterns of adaptive immune responses to persisting tissue antigens to exploit the full predictive potential of protocol biopsies in transplantation and cancer research - Funding: BMBF</li>
+</ul>
+
+<h2 id="research-supervision">Research supervision</h2>
+
+<h4 id="current-phd-researchers">Current PhD researchers</h4>
+
+<ul>
+  <li><a href="https://www.linkedin.com/in/florian-allender-269986136/?originalSubdomain=fr" class="main">Florian Allender</a> (09/2018-): <strong>Textures and deep learning: from the control of synthesis methods for graphical applications to the validation of recognition methods in histopathological images</strong><br />
+PhD co-supervised by Jean-Michel Dischler and Rémi Allègre</li>
+  <li><a href="" class="main">Xavier Jurado</a> (12/2018-): <strong>Real-time prediction of air pollution by deep learning and 3D modeling associated with sensors</strong><br />
+PhD in collaboration with AIR&amp;D co-supervised by José Vazquez</li>
+  <li><a href="" class="main">Jelica Vasiljevic</a> (10/2017-): <strong>Domain adaptation with deep neural networks for histopathological images</strong><br />
+PhD in collaboration with University of Belgrade co-supervised by Thomas Lampert and Srdan Stankovic</li>
+  <li><a href="" class="main">Nicolas Vernhet</a> (03/2017-): <strong>Evaluation of the predictive potential of radiomics for the characterization of liver tumours</strong><br />
+PhD in collaboration with IRCAD co-supervised by Nicolas Lachiche and Vincent Agnus</li>
+  <li><a href="" class="main">Arnaud Abreu</a> (10/2016-): <strong>Convolutional neural networks and hierarchical representations: applications and perspectives for digital pathology</strong><br />
+PhD in collaboration with Roche France and Oncopôle Toulouse co-supervised by Pierre Brousset, Benoît Naegel and François-Xavier Frenois</li>
+</ul>
+
+<h4 id="graduated">Graduated</h4>
+
+<ul>
+  <li><a href="http://germain-forestier.info" class="main">Germain Forestier</a> (2010): <strong>Knowledge and collaborative clustering of complex multisource objects</strong><br />
+Now Full Professor at Université de Haute-Alsace</li>
+  <li><a href="https://www.linkedin.com/in/sebastienderivaux/" class="main">Sébastien Derivaux</a> (2009): <strong>Construction and classification of objects from remote sensing imagery using an iterative approach guided by domain knowledge</strong><br />
+Now freelance Data Science Architect</li>
+  <li><a href="https://www.linkedin.com/in/bruno-belarte-7b063b83" class="main">Bruno Belarte</a> (2014): <strong>Extraction, analysis and use of spatial relationships between objects of interest for knowledge-guided analysis of remote sensing imagery</strong><br />
+Now Senior Development Engineer at DisplayLink in Cambridge, UK</li>
+  <li><a href="https://www.linkedin.com/in/aymen-sellaouti-b0427731/" class="main">Aymen Sellaouti</a> (2014): <strong>Collaborative method for segmenting and classifying objects from very high spatial resolution remote sensing images</strong><br />
+Now Associate Professor at INSAT Tunis, Tunisia</li>
+</ul>
+
+<h4 id="postdocs-and-engineers">Postdocs and engineers</h4>
+
+<ul>
+  <li>Olivier Schirm: Research engineer position in collaboration with Visorando (04/2020-07/2020)</li>
+  <li>Romain Perrin: Research engineer position in the project Pancréas CGE (12/2019-12/2020)</li>
+  <li>Thomas Lampert: Postdoc position in the project SysMIFTA (11/2017-09/2019)</li>
+  <li>Odyssée Merveille: Postdoc position in the project IdEx from University of Strasbourg (10/2017-03/2019)</li>
+  <li>Maja Temerinac-Ott: Postdoc position in the project SysMIFTA (05/2016-11/2017)</li>
+  <li>Juliane Krüger: Postdoc position in collaboration with Roche GmbH (09/2010-03/2013)</li>
+</ul>
+
+<h2 id="publications">Publications</h2>
+<p>A complete list of all my publications can be found on the <a href="https://icube-publis.unistra.fr/appli.php?author=wemmert">ICube publications server</a>.</p>
+
+<h4 id="some-selected-publications">Some selected publications</h4>
+
+<ul>
+  <li class="ref" id="ae2019">Jurado, X., Reiminger, N., Vazquez, J., Wemmert, C., Dufresne, M., Blond, N. and Wertel, J. (2019)<br />
+<a href="https://doi.org/10.1016/j.atmosenv.2019.117087"><strong>Assessment of mean annual NO2 concentration based on a partial dataset</strong></a><br />
+Atmospheric Environment, 221, 117087 - <a href="javascript: toggleInfos('ae2019','abstract')">[Abstract]</a> - <a href="javascript: toggleInfos('ae2019','bibtex')">[BibTeX]</a> - <a href="./publications/ae2019.pdf">[PDF]</a></li>
+  <li class="bibtex" id="ae2019_bibtex">
+    <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article<span class="p">{</span>jurado2020assessment,
+  title=<span class="p">{</span>Assessment of mean annual NO2 concentration based on a partial dataset<span class="p">}</span>,
+  author=<span class="p">{</span>Jurado, Xavier and Reiminger, Nicolas and Vazquez, Jos<span class="p">{</span><span class="k">\'</span>e<span class="p">}</span> and Wemmert, C<span class="p">{</span><span class="k">\'</span>e<span class="p">}</span>dric and Dufresne, Matthieu and Blond, Nad<span class="p">{</span><span class="k">\`</span>e<span class="p">}</span>ge and Wertel, Jonathan<span class="p">}</span>,
+  journal=<span class="p">{</span>Atmospheric Environment<span class="p">}</span>,
+  volume=<span class="p">{</span>221<span class="p">}</span>,
+  pages=<span class="p">{</span>117087<span class="p">}</span>,
+  year=<span class="p">{</span>2020<span class="p">}</span>,
+  publisher=<span class="p">{</span>Elsevier<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+  <li class="abstract" id="ae2019_abstract">NO2 is a pollutant harmful to both health and the environment. The European Union and the World Health Organization have developed guidelines in terms of pollutant. The value of 40 μg/m3 is set by both entities as the annual mean NO2 concentration not to be exceeded to prevent risks for human health. To assess this given value, yearlong in situ measurements are required. However, sometimes only partial data are available, such as having only NOx (NO + NO2) information, on the one hand, and, on the other hand, brief NO2 measurements performed over few months. To overcome the first hurdle, several methods exist in the literature to transform NOx data into NO2 data. The method of Derwent and Middleton is the most appropriate for France with less than 8% of deviation and even less deviation when considering rural and urban sites. For all values, NOx concentrations behave as expected with higher concentrations in autumn and winter than in spring and summer. However, for NO2 this trend changes around 80 μg/m³ for which the spring and summer values are higher. Therefore, to maximize measurements to assess an upper limit on annual NO2 concentration over a short period of time, those measurements should be done in winter if an annual concentration of less than 80 μg/m3 is expected, otherwise they should carry out in summer. To tackle the second issue, a second order polynomial approach is built on a Paris dataset covering years between 2013 and 2017 to determine annual mean concentrations with monthly mean concentrations and gives an overall error of 10%. The law built on Paris was then tested on several regions in France for the same period and resulted in predicted values with a mean error of about 15% compared to the measured ones. In the end, the presented methodology allows covering twelve times more ground with a single NO2 or NOx sensor with an acceptable error.</li>
+  <li class="ref" id="cmaj2019">Pelaccia, T., Forestier, G. and Wemmert, C. (2019)<br />
+<a href="https://doi.org/10.1503/cmaj.190506"><strong>Deconstructing the diagnostic reasoning of human versus artificial intelligence</strong></a><br />
+Canadian Medical Association Journal, Vol. 191(48), pp. E1332 - <a href="javascript: toggleInfos('cmaj2019','abstract')">[Abstract]</a> - <a href="javascript: toggleInfos('cmaj2019','bibtex')">[BibTeX]</a> - <a href="./publications/cmaj2019.pdf">[PDF]</a></li>
+  <li class="bibtex" id="cmaj2019_bibtex">
+    <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article<span class="p">{</span>pelaccia2019deconstructing,
+  title=<span class="p">{</span>Deconstructing the diagnostic reasoning of human versus artificial intelligence<span class="p">}</span>,
+  author=<span class="p">{</span>Pelaccia, Thierry and Forestier, Germain and Wemmert, C<span class="p">{</span><span class="k">\'</span>e<span class="p">}</span>dric<span class="p">}</span>,
+  journal=<span class="p">{</span>CMAJ<span class="p">}</span>,
+  volume=<span class="p">{</span>191<span class="p">}</span>,
+  number=<span class="p">{</span>48<span class="p">}</span>,
+  pages=<span class="p">{</span>E1332--E1335<span class="p">}</span>,
+  year=<span class="p">{</span>2019<span class="p">}</span>,
+  publisher=<span class="p">{</span>Can Med Assoc<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+  <li class="abstract" id="cmaj2019_abstract">This article…</li>
+  <li class="ref" id="tmi2018">Grote, A., Schaadt, N., Forestier, G., Wemmert, C. and Feuerhake, F. (2018)<br />
+<a href="https://doi.org/10.1109/TMI.2018.2883237"><strong>Crowdsourcing of Histological Image Labeling and Object Delineation by Medical Students</strong></a><br />
+IEEE Transactions on Medical Imaging, 38(5), 1284-1294 - <a href="javascript: toggleInfos('tmi2018','abstract')">[Abstract]</a> - <a href="javascript: toggleInfos('tmi2018','bibtex')">[BibTeX]</a> - <a href="./publications/tmi2018.pdf">[PDF]</a></li>
+  <li class="bibtex" id="tmi2018_bibtex">
+    <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article<span class="p">{</span>grote2018crowdsourcing,
+  title=<span class="p">{</span>Crowdsourcing of Histological Image Labeling and Object Delineation by Medical Students<span class="p">}</span>,
+  author=<span class="p">{</span>Grote, Anne and Schaadt, Nadine S and Forestier, Germain and Wemmert, C<span class="p">{</span><span class="k">\'</span>e<span class="p">}</span>dric and Feuerhake, Friedrich<span class="p">}</span>,
+  journal=<span class="p">{</span>IEEE transactions on medical imaging<span class="p">}</span>,
+  volume=<span class="p">{</span>38<span class="p">}</span>,
+  number=<span class="p">{</span>5<span class="p">}</span>,
+  pages=<span class="p">{</span>1284--1294<span class="p">}</span>,
+  year=<span class="p">{</span>2018<span class="p">}</span>,
+  publisher=<span class="p">{</span>IEEE<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+  <li class="abstract" id="tmi2018_abstract">Crowdsourcing in pathology has been performed on tasks that are assumed to be manageable by nonexperts. Demand remains high for annotations of more complex elements in digital microscopic images, such as anatomical structures. Therefore, this paper investigates conditions to enable crowdsourced annotations of high-level image objects, a complex task considered to require expert knowledge. Seventy six medical students without specific domain knowledge who voluntarily participated in three experiments solved two relevant annotation tasks on histopathological images: 1) labeling of images showing tissue regions and 2) delineation of morphologically defined image objects.<br />
+We focus on methods to ensure sufficient annotation quality including several tests on the required number of participants and on the correlation of participants’ performance between tasks. In a set up simulating annotation of images with limited ground truth, we validated the feasibility of a confidence score using full ground truth. For this, we computed a majority vote using weighting factors based on individual assessment of contributors against scattered gold standard annotated by pathologists. In conclusion, we provide guidance for task design and quality control to enable a crowdsourced approach to obtain accurate annotations required in the era of digital pathology.</li>
+  <li class="ref" id="if2018">Cornuéjols, A., Wemmert, C., Gançarski, P. and Bennani, Y. (2018)<br />
+<a href="https://doi.org/10.1016/j.inffus.2017.04.008"><strong>Collaborative Clustering: Why, When, What and How</strong></a><br />
+Information Fusion, Volume 39, Pages 81-95 - <a href="javascript: toggleInfos('if2018','abstract')">[Abstract]</a> - <a href="javascript: toggleInfos('if2018','bibtex')">[BibTeX]</a> - <a href="./publications/if2018.pdf">[PDF]</a></li>
+  <li class="bibtex" id="if2018_bibtex">
+    <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article<span class="p">{</span>cornuejols2018collaborative,
+  title=<span class="p">{</span>Collaborative clustering: Why, when, what and how<span class="p">}</span>,
+  author=<span class="p">{</span>Cornu<span class="p">{</span><span class="k">\'</span>e<span class="p">}</span>jols, Antoine and Wemmert, C<span class="p">{</span><span class="k">\'</span>e<span class="p">}</span>dric and Gan<span class="p">{</span><span class="k">\c</span><span class="p">{</span>c<span class="p">}}</span>arski, Pierre and Bennani, Youn<span class="p">{</span><span class="k">\`</span>e<span class="p">}</span>s<span class="p">}</span>,
+  journal=<span class="p">{</span>Information Fusion<span class="p">}</span>,
+  volume=<span class="p">{</span>39<span class="p">}</span>,
+  pages=<span class="p">{</span>81--95<span class="p">}</span>,
+  year=<span class="p">{</span>2018<span class="p">}</span>,
+  publisher=<span class="p">{</span>Elsevier<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+  <li class="abstract" id="if2018_abstract">Clustering is one type of unsupervised learning where the goal is to partition the set of objects into groups called clusters. Faced to the difficulty to design a general purpose clustering algorithm and to choose a good, let alone perfect, set of criteria for clustering a data set, one solution is to resort to a variety of clustering procedures based on different techniques, parameters and/or initializations, in order to construct one (or several) final clustering(s). The hope is that by combining several clustering solutions, each one with its own bias and imperfections, one will get a better overall solution.<br />
+In the cooperative clustering model, as Ensemble Clustering, a set of clustering algorithms are used in parallel on a given data set: the local results are combined to get a hopefully better overall clustering. In the collaborative framework, the goal is that each local computation, quite possibly applied to distinct data sets, benefit from the work done by the other collaborators.<br />
+This paper is dedicated to collaborative clustering. In particular, after a brief overview of clustering and the major issues linked to, it presents main challenges related to organize and control the collaborative process.</li>
+  <li class="ref" id="bcrt2017">Schaadt, N., Alfonso, J., Schönmeyer, R., Grote, A., Forestier, G., Krönke, N., Mechthild, S., Kreipe, H., Haralampos, H., Wemmert, C. and Feuerhake, F. (2017)<br />
+<a href="http://doi.org/10.1007/s10549-017-4239-z"><strong>Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis</strong></a><br />
+Breast Cancer Res Treat, 164 (2), 305-315 - <a href="javascript: toggleInfos('bcrt2017','abstract')">[Abstract]</a> - <a href="javascript: toggleInfos('bcrt2017','bibtex')">[BibTeX]</a> - <a href="./publications/bcrt2017.pdf">[PDF]</a></li>
+  <li class="bibtex" id="bcrt2017_bibtex">
+    <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article<span class="p">{</span>schaadt2017image,
+  title=<span class="p">{</span>Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis<span class="p">}</span>,
+  author=<span class="p">{</span>Schaadt, Nadine S and Alfonso, Juan Carlos L<span class="p">{</span><span class="k">\'</span>o<span class="p">}</span>pez and Sch<span class="p">{</span><span class="k">\"</span>o<span class="p">}</span>nmeyer, Ralf and Grote, Anne and Forestier, Germain and Wemmert, C<span class="p">{</span><span class="k">\'</span>e<span class="p">}</span>dric and Kr<span class="p">{</span><span class="k">\"</span>o<span class="p">}</span>nke, Nicole and Stoeckelhuber, Mechthild and Kreipe, Hans H and Hatzikirou, Haralampos and others<span class="p">}</span>,
+  journal=<span class="p">{</span>Breast cancer research and treatment<span class="p">}</span>,
+  volume=<span class="p">{</span>164<span class="p">}</span>,
+  number=<span class="p">{</span>2<span class="p">}</span>,
+  pages=<span class="p">{</span>305--315<span class="p">}</span>,
+  year=<span class="p">{</span>2017<span class="p">}</span>,
+  publisher=<span class="p">{</span>Springer<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+  <li class="abstract" id="bcrt2017_abstract">Purpose: To improve microscopic evaluation of immune cells relevant in breast cancer oncoimmunology, we aim at distinguishing normal infiltration patterns from lymphocytic lobulitis by advanced image analysis. We consider potential immune cell variations due to the menstrual cycle and oral contraceptives in nonneoplastic mammary gland tissue.<br />
+Methods: Lymphocyte and macrophage distributions were analyzed in the anatomical context of the resting mammary gland in immunohistochemically stained digital whole slide images obtained from 53 reduction mammoplasty specimens. Our image analysis workflow included automated regions of interest detection, immune cell recognition, and co-registration of regions of interest.<br />
+Results: In normal lobular epithelium, seven CD8+ lymphocytes per 100 epithelial cells were present on average and about 70% of this T-lymphocyte population was lined up along the basal cell layer in close proximity to the epithelium. The density of CD8+ T-cell was 1.6 fold higher in the luteal than in the follicular phase in spontaneous menstrual cycles and 1.4 fold increased under influence of oral contraceptives, and not co-localized with epithelial proliferation. CD4+ T-cells were infrequent. Abundant CD163+ macrophages were widely spread, including the interstitial compartment, with minor variation during the menstrual cycle.<br />
+Conclusions: Spatial patterns of different immune cell subtypes determine the range of normal, as opposed to inflammatory conditions of the breast tissue microenvironment. Advanced image analysis enables quantification of hormonal effects, refines lymphocytic lobulitis, and shows potential for comprehensive biopsy evaluation in oncoimmunology</li>
+  <li class="ref" id="cbm2016">Apou, G., Schaadt, N., Naegel, B., Forestier, G., Schönmeyer, R., Feuerhake, F., Wemmert, C. and Grote, A. (2016)<br />
+<a href="https://doi.org/10.1016/j.compbiomed.2016.05.004"><strong>Detection of lobular structures in normal breast tissue</strong></a><br />
+Computers in Biology and Medicine, pages 91-102, Volume 74 - <a href="javascript: toggleInfos('cbm2016','abstract')">[Abstract]</a> - <a href="javascript: toggleInfos('cbm2016','bibtex')">[BibTeX]</a> - <a href="./publications/cbm2016.pdf">[PDF]</a></li>
+  <li class="bibtex" id="cbm2016_bibtex">
+    <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article<span class="p">{</span>apou2016detection,
+  title=<span class="p">{</span>Detection of lobular structures in normal breast tissue<span class="p">}</span>,
+  author=<span class="p">{</span>Apou, Gr<span class="p">{</span><span class="k">\'</span>e<span class="p">}</span>gory and Schaadt, Nadine S and Naegel, Beno<span class="p">{</span><span class="k">\^\i</span><span class="p">}</span>t and Forestier, Germain and Sch<span class="p">{</span><span class="k">\"</span>o<span class="p">}</span>nmeyer, Ralf and Feuerhake, Friedrich and Wemmert, C<span class="p">{</span><span class="k">\'</span>e<span class="p">}</span>dric and Grote, Anne<span class="p">}</span>,
+  journal=<span class="p">{</span>Computers in biology and medicine<span class="p">}</span>,
+  volume=<span class="p">{</span>74<span class="p">}</span>,
+  pages=<span class="p">{</span>91--102<span class="p">}</span>,
+  year=<span class="p">{</span>2016<span class="p">}</span>,
+  publisher=<span class="p">{</span>Elsevier<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+  <li class="abstract" id="cbm2016_abstract">Background: Ongoing research into inflammatory conditions raises an increasing need to evaluate immune cells in histological sections in biologically relevant regions of interest (ROIs). Herein, we compare different approaches to automatically detect lobular structures in human normal breast tissue in digitized whole slide images (WSIs). This automation is required to perform objective and consistent quantitative studies on large data sets.<br />
+Methods: In normal breast tissue from nine healthy patients immunohistochemically stained for different markers, we evaluated and compared three different image analysis methods to automatically detect lobular structures in WSIs: (1) a bottom-up approach using the cell-based data for subsequent tissue level classification, (2) a top-down method starting with texture classification at tissue level analysis of cell densities in specific ROIs, and (3) a direct texture classification using deep learning technology.<br />
+Results: All three methods result in comparable overall quality allowing automated detection of lobular structures with minor advantage in sensitivity (approach 3), specificity (approach 2), or processing time (approach 1). Combining the outputs of the approaches further improved the precision.<br />
+Conclusions: Different approaches of automated ROI detection are feasible and should be selected according to the individual needs of biomarker research. Additionally, detected ROIs could be used as a basis for quantification of immune infiltration in lobular structures.</li>
+</ul>
+
+<hr />
+
+<h1 id="teaching">Teaching</h1>
+
+<hr />
+
+<h3 id="what-is-my-job">What is my job?</h3>
+
+<blockquote>
+  <p>When you’re fundraising, it’s AI <br />
+When you’re hiring, it’s ML <br />
+When you’re implementing, it’s linear regression <br />
+When you’re debugging, it’s printf()</p>
+</blockquote>
+:ET
