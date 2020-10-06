@@ -1,3 +1,5 @@
+ * [Romain Perrin](){: .main} (10/2020-): **Spatial deep learning for histology images analysis**  
+PhD co-supervised by Benoît Naegel
  * [Florian Allender](https://www.linkedin.com/in/florian-allender-269986136/?originalSubdomain=fr){: .main} (09/2018-): **Textures and deep learning: from the control of synthesis methods for graphical applications to the validation of recognition methods in histopathological images**  
 PhD co-supervised by Jean-Michel Dischler and Rémi Allègre
  * [Xavier Jurado](){: .main} (12/2018-): **Real-time prediction of air pollution by deep learning and 3D modeling associated with sensors**  
