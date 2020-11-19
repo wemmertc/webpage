@@ -1,3 +1,5 @@
+ * [Olivier Schirm](){: .main} (10/2020-): **Spatio-temporal data analysis for the automatic construction of hiking maps and personalised itinerary proposals**  
+PhD co-supervised by Germain Forestier
  * [Romain Perrin](){: .main} (10/2020-): **Spatial deep learning for histology images analysis**  
 PhD co-supervised by Benoît Naegel
  * [Florian Allender](https://www.linkedin.com/in/florian-allender-269986136/?originalSubdomain=fr){: .main} (09/2018-): **Textures and deep learning: from the control of synthesis methods for graphical applications to the validation of recognition methods in histopathological images**  
@@ -6,5 +8,3 @@ PhD co-supervised by Jean-Michel Dischler and Rémi Allègre
 PhD in collaboration with AIR&D co-supervised by José Vazquez
  * [Jelica Vasiljevic](){: .main} (10/2017-): **Domain adaptation with deep neural networks for histopathological images**  
 PhD in collaboration with University of Belgrade co-supervised by Thomas Lampert and Srdan Stankovic
- * [Nicolas Vernhet](){: .main} (03/2017-): **Evaluation of the predictive potential of radiomics for the characterization of liver tumours**  
-PhD in collaboration with IRCAD co-supervised by Nicolas Lachiche and Vincent Agnus
