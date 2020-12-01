@@ -1,3 +1,5 @@
+ * Bonan Cuan: Postdoc position in collaboration with mi:EDGE (09/2020-)
+ * Amina Ben Hamida: Postdoc position in collaboration with AiCOLO (09/2020-)
  * Olivier Schirm: Research engineer position in collaboration with Visorando (04/2020-07/2020)
  * Romain Perrin: Research engineer position in collaboration with Histopathology dpt HUS (12/2019-12/2020)
  * Thomas Lampert: Postdoc position (11/2017-09/2019)
