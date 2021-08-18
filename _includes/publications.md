@@ -1,18 +1,22 @@
  * {: .ref #neurocomp2021}Vasiljevic, J., Feuerhake, F., Wemmert, C. and Lampert, T. (2021)  
-[**Towards Histopathological Stain Invariance by Unsupervised Domain Augmentation using Generative Adversarial Networks**]()  
+[**Towards Histopathological Stain Invariance by Unsupervised Domain Augmentation using Generative Adversarial Networks**](https://www-sciencedirect-com.scd-rproxy.u-strasbg.fr/science/article/abs/pii/S0925231221010390)  
 Neurocomputing, 460, 277--291 - [[Abstract]](javascript: toggleInfos('neurocomp2021','abstract')) - [[BibTeX]](javascript: toggleInfos('neurocomp2021','bibtex')) - [[PDF]](./publications/neurocomp2021.pdf)  
  * {:.bibtex  #neurocomp2021_bibtex} ```latex 
-@article{jurado2020assessment,
-  title={Assessment of mean annual NO2 concentration based on a partial dataset},
-  author={Jurado, Xavier and Reiminger, Nicolas and Vazquez, Jos{\'e} and Wemmert, C{\'e}dric and Dufresne, Matthieu and Blond, Nad{\`e}ge and Wertel, Jonathan},
-  journal={Atmospheric Environment},
-  volume={221},
-  pages={117087},
-  year={2020},
-  publisher={Elsevier}
+@Article{2-VFWL21,
+ author = {Vasiljevic, J. and Feuerhake, F. and Wemmert, C. and Lampert, T.},
+ title = {Towards Histopathological Stain Invariance by Unsupervised Domain Augmentation using Generative Adversarial Networks},
+ journal = {Neurocomputing},
+ volume = {460},
+ pages = {277-291},
+ month = {Oct},
+ year = {2021},
+ doi = {10.1016/j.neucom.2021.07.005},
+ x-international-audience = {Yes},
+ x-language = {EN},
+ url = {http://icube-publis.unistra.fr/2-VFWL21}
 }
 ```  
- * {:.abstract  #neurocomp2021_abstract} NO2 is a pollutant harmful to both health and the environment. The European Union and the World Health Organization have developed guidelines in terms of pollutant. The value of 40 μg/m3 is set by both entities as the annual mean NO2 concentration not to be exceeded to prevent risks for human health. To assess this given value, yearlong in situ measurements are required. However, sometimes only partial data are available, such as having only NOx (NO + NO2) information, on the one hand, and, on the other hand, brief NO2 measurements performed over few months. To overcome the first hurdle, several methods exist in the literature to transform NOx data into NO2 data. The method of Derwent and Middleton is the most appropriate for France with less than 8% of deviation and even less deviation when considering rural and urban sites. For all values, NOx concentrations behave as expected with higher concentrations in autumn and winter than in spring and summer. However, for NO2 this trend changes around 80 μg/m³ for which the spring and summer values are higher. Therefore, to maximize measurements to assess an upper limit on annual NO2 concentration over a short period of time, those measurements should be done in winter if an annual concentration of less than 80 μg/m3 is expected, otherwise they should carry out in summer. To tackle the second issue, a second order polynomial approach is built on a Paris dataset covering years between 2013 and 2017 to determine annual mean concentrations with monthly mean concentrations and gives an overall error of 10%. The law built on Paris was then tested on several regions in France for the same period and resulted in predicted values with a mean error of about 15% compared to the measured ones. In the end, the presented methodology allows covering twelve times more ground with a single NO2 or NOx sensor with an acceptable error.
+ * {:.abstract  #neurocomp2021_abstract} The application of supervised deep learning methods in digital pathology is limited due to their sensitivity to domain shift. Digital Pathology is an area prone to high variability due to many sources, including the common practice of evaluating several consecutive tissue sections stained with different staining protocols. Obtaining labels for each stain is very expensive and time consuming as it requires a high level of domain knowledge. In this article, we propose an unsupervised augmentation approach based on adversarial image-to-image translation, which facilitates the training of stain invariant supervised convolutional neural networks. By training the network on one commonly used staining modality and applying it to images that include corresponding, but differently stained, tissue structures, the presented method demonstrates significant improvements over other approaches. These benefits are illustrated in the problem of glomeruli segmentation in seven different staining modalities (PAS, Jones H&E, CD68, Sirius Red, CD34, H&E and CD3) and analysis of the learned representations demonstrate their stain invariance.
  * {: .ref #ae2019}Jurado, X., Reiminger, N., Vazquez, J., Wemmert, C., Dufresne, Blond and Wertel, J. (2019)  
 [**Assessment of mean annual NO2 concentration based on a partial dataset**](https://doi.org/10.1016/j.atmosenv.2019.117087)  
 Atmospheric Environment, 221, 117087 - [[Abstract]](javascript: toggleInfos('ae2019','abstract')) - [[BibTeX]](javascript: toggleInfos('ae2019','bibtex')) - [[PDF]](./publications/ae2019.pdf)  
