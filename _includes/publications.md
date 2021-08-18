@@ -1,5 +1,5 @@
  * {: .ref #ae2019}Jurado, X., Reiminger, N., Vazquez, J., Wemmert, C., Dufresne, M., Blond, N. and Wertel, J. (2019)  
-[**Assessment of mean annual NO2 concentration based on a partial dataset**](https://doi.org/10.1016/j.atmosenv.2019.117087)  
+[**Assessment of mean annual NO2 concentration based on a partial datasets**](https://doi.org/10.1016/j.atmosenv.2019.117087)  
 Atmospheric Environment, 221, 117087 - [[Abstract]](javascript: toggleInfos('ae2019','abstract')) - [[BibTeX]](javascript: toggleInfos('ae2019','bibtex')) - [[PDF]](./publications/ae2019.pdf)  
  * {:.bibtex  #ae2019_bibtex} ```latex 
 @article{jurado2020assessment,
