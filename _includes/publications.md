@@ -1,6 +1,6 @@
  * {: .ref #neurocomp2021}Vasiljevic, J., Feuerhake, F., Wemmert, C. and Lampert, T. (2021)  
 [**Towards Histopathological Stain Invariance by Unsupervised Domain Augmentation using Generative Adversarial Networks**](https://www-sciencedirect-com.scd-rproxy.u-strasbg.fr/science/article/abs/pii/S0925231221010390)  
-Neurocomputing, 460, 277--291 - [[Abstract]](javascript: toggleInfos('neurocomp2021','abstract')) - [[BibTeX]](javascript: toggleInfos('neurocomp2021','bibtex')) - 
+Neurocomputing, 460, 277--291 - [[Abstract]](javascript: toggleInfos('neurocomp2021','abstract')) - [[BibTeX]](javascript: toggleInfos('neurocomp2021','bibtex')) - [[PDF]](./publications/neurocomp2021.pdf) 
  * {:.bibtex  #neurocomp2021_bibtex} ```latex 
 @Article{2-VFWL21,
  author = {Vasiljevic, J. and Feuerhake, F. and Wemmert, C. and Lampert, T.},
@@ -19,7 +19,7 @@ Neurocomputing, 460, 277--291 - [[Abstract]](javascript: toggleInfos('neurocomp2
  * {:.abstract  #neurocomp2021_abstract} The application of supervised deep learning methods in digital pathology is limited due to their sensitivity to domain shift. Digital Pathology is an area prone to high variability due to many sources, including the common practice of evaluating several consecutive tissue sections stained with different staining protocols. Obtaining labels for each stain is very expensive and time consuming as it requires a high level of domain knowledge. In this article, we propose an unsupervised augmentation approach based on adversarial image-to-image translation, which facilitates the training of stain invariant supervised convolutional neural networks. By training the network on one commonly used staining modality and applying it to images that include corresponding, but differently stained, tissue structures, the presented method demonstrates significant improvements over other approaches. These benefits are illustrated in the problem of glomeruli segmentation in seven different staining modalities (PAS, Jones H&E, CD68, Sirius Red, CD34, H&E and CD3) and analysis of the learned representations demonstrate their stain invariance.
  * {: .ref #ae2019}Jurado, X., Reiminger, N., Vazquez, J., Wemmert, C., Dufresne, Blond and Wertel, J. (2019)  
 [**Assessment of mean annual NO2 concentration based on a partial dataset**](https://doi.org/10.1016/j.atmosenv.2019.117087)  
-Atmospheric Environment, 221, 117087 - [[Abstract]](javascript: toggleInfos('ae2019','abstract')) - [[BibTeX]](javascript: toggleInfos('ae2019','bibtex')) - 
+Atmospheric Environment, 221, 117087 - [[Abstract]](javascript: toggleInfos('ae2019','abstract')) - [[BibTeX]](javascript: toggleInfos('ae2019','bibtex')) - [[PDF]](./publications/ae2019.pdf) 
  * {:.bibtex  #ae2019_bibtex} ```latex 
 @article{jurado2020assessment,
   title={Assessment of mean annual NO2 concentration based on a partial dataset},
@@ -34,7 +34,7 @@ Atmospheric Environment, 221, 117087 - [[Abstract]](javascript: toggleInfos('ae2
  * {:.abstract  #ae2019_abstract} NO2 is a pollutant harmful to both health and the environment. The European Union and the World Health Organization have developed guidelines in terms of pollutant. The value of 40 μg/m3 is set by both entities as the annual mean NO2 concentration not to be exceeded to prevent risks for human health. To assess this given value, yearlong in situ measurements are required. However, sometimes only partial data are available, such as having only NOx (NO + NO2) information, on the one hand, and, on the other hand, brief NO2 measurements performed over few months. To overcome the first hurdle, several methods exist in the literature to transform NOx data into NO2 data. The method of Derwent and Middleton is the most appropriate for France with less than 8% of deviation and even less deviation when considering rural and urban sites. For all values, NOx concentrations behave as expected with higher concentrations in autumn and winter than in spring and summer. However, for NO2 this trend changes around 80 μg/m³ for which the spring and summer values are higher. Therefore, to maximize measurements to assess an upper limit on annual NO2 concentration over a short period of time, those measurements should be done in winter if an annual concentration of less than 80 μg/m3 is expected, otherwise they should carry out in summer. To tackle the second issue, a second order polynomial approach is built on a Paris dataset covering years between 2013 and 2017 to determine annual mean concentrations with monthly mean concentrations and gives an overall error of 10%. The law built on Paris was then tested on several regions in France for the same period and resulted in predicted values with a mean error of about 15% compared to the measured ones. In the end, the presented methodology allows covering twelve times more ground with a single NO2 or NOx sensor with an acceptable error.
  * {: .ref #cmaj2019}Pelaccia, T., Forestier and Wemmert (2019)  
 [**Deconstructing the diagnostic reasoning of human versus artificial intelligence**](https://doi.org/10.1503/cmaj.190506)  
-Canadian Medical Association Journal, Vol. 191(48), pp. E1332 - [[Abstract]](javascript: toggleInfos('cmaj2019','abstract')) - [[BibTeX]](javascript: toggleInfos('cmaj2019','bibtex')) - 
+Canadian Medical Association Journal, Vol. 191(48), pp. E1332 - [[Abstract]](javascript: toggleInfos('cmaj2019','abstract')) - [[BibTeX]](javascript: toggleInfos('cmaj2019','bibtex')) - [[PDF]](./publications/cmaj2019.pdf) 
  * {:.bibtex  #cmaj2019_bibtex} ```latex 
 @article{pelaccia2019deconstructing,
   title={Deconstructing the diagnostic reasoning of human versus artificial intelligence},
@@ -50,7 +50,7 @@ Canadian Medical Association Journal, Vol. 191(48), pp. E1332 - [[Abstract]](jav
  * {:.abstract  #cmaj2019_abstract} This article...
  * {: .ref #tmi2018}Grote, Schaadt, Forestier, Wemmert and Feuerhake (2018)  
 [**Crowdsourcing of Histological Image Labeling and Object Delineation by Medical Students**](https://doi.org/10.1109/TMI.2018.2883237)  
-IEEE Transactions on Medical Imaging, 38(5), 1284-1294 - [[Abstract]](javascript: toggleInfos('tmi2018','abstract')) - [[BibTeX]](javascript: toggleInfos('tmi2018','bibtex')) - 
+IEEE Transactions on Medical Imaging, 38(5), 1284-1294 - [[Abstract]](javascript: toggleInfos('tmi2018','abstract')) - [[BibTeX]](javascript: toggleInfos('tmi2018','bibtex')) - [[PDF]](./publications/tmi2018.pdf) 
  * {:.bibtex  #tmi2018_bibtex} ```latex 
 @article{grote2018crowdsourcing,
   title={Crowdsourcing of Histological Image Labeling and Object Delineation by Medical Students},
@@ -67,7 +67,7 @@ IEEE Transactions on Medical Imaging, 38(5), 1284-1294 - [[Abstract]](javascript
 We focus on methods to ensure sufficient annotation quality including several tests on the required number of participants and on the correlation of participants' performance between tasks. In a set up simulating annotation of images with limited ground truth, we validated the feasibility of a confidence score using full ground truth. For this, we computed a majority vote using weighting factors based on individual assessment of contributors against scattered gold standard annotated by pathologists. In conclusion, we provide guidance for task design and quality control to enable a crowdsourced approach to obtain accurate annotations required in the era of digital pathology.
  * {: .ref #if2018}Cornuéjols, Wemmert, Gançarski and Bennani (2018)  
 [**Collaborative Clustering: Why, When, What and How**](https://doi.org/10.1016/j.inffus.2017.04.008)  
-Information Fusion, Volume 39, Pages 81-95 - [[Abstract]](javascript: toggleInfos('if2018','abstract')) - [[BibTeX]](javascript: toggleInfos('if2018','bibtex')) - 
+Information Fusion, Volume 39, Pages 81-95 - [[Abstract]](javascript: toggleInfos('if2018','abstract')) - [[BibTeX]](javascript: toggleInfos('if2018','bibtex')) - [[PDF]](./publications/if2018.pdf) 
  * {:.bibtex  #if2018_bibtex} ```latex 
 @article{cornuejols2018collaborative,
   title={Collaborative clustering: Why, when, what and how},
@@ -84,7 +84,7 @@ In the cooperative clustering model, as Ensemble Clustering, a set of clustering
 This paper is dedicated to collaborative clustering. In particular, after a brief overview of clustering and the major issues linked to, it presents main challenges related to organize and control the collaborative process.
  * {: .ref #bcrt2017}Schaadt, Alfonso, Schönmeyer, Grote, Forestier, Krönke, Mechthild, Kreipe, Haralampos, Wemmert and Feuerhake (2017)  
 [**Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis**](http://doi.org/10.1007/s10549-017-4239-z)  
-Breast Cancer Res Treat, 164 (2), 305-315 - [[Abstract]](javascript: toggleInfos('bcrt2017','abstract')) - [[BibTeX]](javascript: toggleInfos('bcrt2017','bibtex')) - 
+Breast Cancer Res Treat, 164 (2), 305-315 - [[Abstract]](javascript: toggleInfos('bcrt2017','abstract')) - [[BibTeX]](javascript: toggleInfos('bcrt2017','bibtex')) - [[PDF]](./publications/bcrt2017.pdf) 
  * {:.bibtex  #bcrt2017_bibtex} ```latex 
 @article{schaadt2017image,
   title={Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis},
@@ -103,7 +103,7 @@ Results: In normal lobular epithelium, seven CD8+ lymphocytes per 100 epithelial
 Conclusions: Spatial patterns of different immune cell subtypes determine the range of normal, as opposed to inflammatory conditions of the breast tissue microenvironment. Advanced image analysis enables quantification of hormonal effects, refines lymphocytic lobulitis, and shows potential for comprehensive biopsy evaluation in oncoimmunology
  * {: .ref #cbm2016}Apou, Schaadt, Naegel, Forestier, Schönmeyer, Feuerhake, Wemmert and Grote (2016)  
 [**Detection of lobular structures in normal breast tissue**](https://doi.org/10.1016/j.compbiomed.2016.05.004)  
-Computers in Biology and Medicine, pages 91-102, Volume 74 - [[Abstract]](javascript: toggleInfos('cbm2016','abstract')) - [[BibTeX]](javascript: toggleInfos('cbm2016','bibtex')) - 
+Computers in Biology and Medicine, pages 91-102, Volume 74 - [[Abstract]](javascript: toggleInfos('cbm2016','abstract')) - [[BibTeX]](javascript: toggleInfos('cbm2016','bibtex')) - [[PDF]](./publications/cbm2016.pdf) 
  * {:.bibtex  #cbm2016_bibtex} ```latex 
 @article{apou2016detection,
   title={Detection of lobular structures in normal breast tissue},
