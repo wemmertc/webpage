@@ -18,9 +18,9 @@ Member of [CNU 27](https://cnu27.univ-lille.fr/) and [INSERM CSS2](https://eva3-
 
 # Research
 
-<!--{:.openposition}
-**2020/07 - Open position:** 36 months postdoc position on *Deep learning and data mining for multimodal image analysis in neuroradiology and histopathology* - [find out more here](./assets/files/2020___mi_EDGE_postdoc_position.pdf)
--->
+{:.openposition}
+**2022/03 - Open position:** Associate Lecturer on *Anomaly and failure detection and/or analysis of temporal or sequential data* - [find out more here](./assets/files/27_MAI_MCF_0277.pdf)
+
 
 ## Current projects and collaborations
 
