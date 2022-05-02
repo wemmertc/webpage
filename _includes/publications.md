@@ -1,3 +1,10 @@
+ * {: .ref #eswa2022}Jurado, X., Reiminger, N., Benmoussa, M., Vazquez, J. and Wemmert, C. (2022)  
+[**Deep Learning methods evaluation to predict air quality based on computational fluid dynamics**]()  
+Expert Systems With Applications,  - [[Abstract]](javascript: toggleInfos('eswa2022','abstract')) - [[BibTeX]](javascript: toggleInfos('eswa2022','bibtex')) - [[PDF]](./publications/eswa2022.pdf) 
+ * {:.bibtex  #eswa2022_bibtex} ```latex 
+
+```  
+ * {:.abstract  #eswa2022_abstract} Air quality is a major health issue for densified cities nowadays. To evaluate and act upon it, modeling alongside sensors has proved to be a powerful tool. Among the different available models, Computational Fluid Dynamics (CFD) has proved to be formidable to evaluate airborne pollutant dispersion locally in urban areas since it is able to consider buildings and others complexes phenomenon at the scale of the meter. Nevertheless, this method has a major drawback, it is computationally expensive and cannot be applied in real time or over large areas. To overcome this issue, several state-of-the-art  deep learning methods to treat spatial information have been trained based on CFD results to predict airborne pollutant dispersion. Among these models, multiResUnet architecture was proved to be the best on overall over seven metrics. It managed to have two out of three air quality metrics within acceptable range for a good air quality model. These results are obtained in a mere matter of minutes against several tenth of hours for CFD.
  * {: .ref #cbm2021}Ben Hamida, A., Devanne, M., Weber, J., Truntzer, C., Derangere, V., Ghiringhelli, F., Forestier, G. and Wemmert, C. (2021)  
 [**Deep learning for colon cancer histopathological images analysis**](https://doi.org/10.1016/j.compbiomed.2021.104730)  
 Computers in Biology and Medicine, Vol. 136, 104730 - [[Abstract]](javascript: toggleInfos('cbm2021','abstract')) - [[BibTeX]](javascript: toggleInfos('cbm2021','bibtex')) - [[PDF]](./publications/cbm2021.pdf) 
