@@ -14,8 +14,9 @@ Member of [CNU 27](https://cnu27.univ-lille.fr/) and [INSERM CSS2](https://eva3-
 
 {% include contact.md %}
 
-{:.openposition}
+<!--{:.openposition}
 **2022/03 - Open position:** Lecturer on *Anomaly and failure detection and/or analysis of temporal or sequential data* - [find out more here](./assets/files/27_MAI_MCF_0277.pdf)
+-->
 
 * * *
 
@@ -69,9 +70,9 @@ I am teaching mainly in the Computer Science department of the [Technology Insti
 ### What is my job?
 
 > When you’re fundraising, it’s AI
-  
+
 When you’re hiring, it’s ML
-  
+
 When you’re implementing, it’s linear regression
-  
+
 When you’re debugging, it’s printf()
