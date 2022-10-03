@@ -1,7 +1,7 @@
- * [Xavier Jurado](){: .main} (2021): **Real-time prediction of air pollution by deep learning and 3D modeling associated with sensors**  
-Now Research Engineer at Air&D
  * [Jelica Vasiljevic](){: .main} (2022): **Domain adaptation with deep neural networks for histopathological images**  
 Now Associate Lecturer, University of Kragujevac, Serbia
+ * [Xavier Jurado](){: .main} (2021): **Real-time prediction of air pollution by deep learning and 3D modeling associated with sensors**  
+Now Research Engineer at Air&D
  * [Arnaud Abreu](){: .main} (2020): **Convolutional neural networks and hierarchical representations**  
 Now Research Engineer at Oncopôle Toulouse
  * [Bruno Belarte](https://www.linkedin.com/in/bruno-belarte-7b063b83){: .main} (2014): **Extraction of spatial relationships for knowledge-guided analysis of remote sensing images**  
