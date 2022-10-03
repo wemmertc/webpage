@@ -1,3 +1,17 @@
+ * {: .ref #aim2022}Ben Hamida, A., Devanne, M., Weber, J., Truntzer, C., Derangere, V., Ghiringhelli, F., Forestier, G. and Wemmert, C. (2022)  
+[**Weakly Supervised Learning using Attention gates for colon cancer histopathological image segmentation**](https://doi.org/10.1016/j.artmed.2022.102407)  
+Artificial Intelligence in Medicine, 102407 - [[Abstract]](javascript: toggleInfos('aim2022','abstract')) - [[BibTeX]](javascript: toggleInfos('aim2022','bibtex')) - [[PDF]](./publications/aim2022.pdf) 
+ * {:.bibtex  #aim2022_bibtex} ```latex 
+@article{hamida2022deep, 
+ title={Weakly Supervised Learning using Attention gates for colon cancer histopathological image segmentation}, 
+ author={Ben Hamida, Amina and Devanne, Maxime and Weber, Jonathan and Truntzer, Caroline and Derangere, Valentin and Ghiringhelli, Francois and Forestier, Germain and Wemmert, Cedric},
+ journal={Artificial Intelligence in Medicine},
+ pages={102407},
+ year={2022},
+ publisher={Elsevier}
+ }
+```  
+ * {:.abstract  #aim2022_abstract} Recently, Artificial Intelligence namely Deep Learning methods have revolutionized a wide range of domains and applications. Besides, Digital Pathology has so far played a major role in the diagnosis and the prognosis of tumors. However, the characteristics of the Whole Slide Images namely the gigapixel size, high resolution and the shortage of richly labeled samples have hindered the efficiency of classical Machine Learning methods. That goes without saying that traditional methods are poor in generalization to different tasks and data contents. Regarding the success of Deep learning when dealing with Large Scale applications, we have resorted to the use of such models for histopathological image segmentation tasks. First, we review and compare the classical UNet and Att-UNet models for colon cancer WSI segmentation in a sparsely annotated data scenario. Then, we introduce novel enhanced models of the Att-UNet where different schemes are proposed for the skip connections and spatial attention gates positions in the network. In fact, spatial attention gates assist the training process and enable the model to avoid irrelevant feature learning. Alternating the presence of such modules namely in our Alter-AttUNet model adds robustness and ensures better image segmentation results. In order to cope with the lack of richly annotated data in our AiCOLO colon cancer dataset, we suggest the use of a multi-step training strategy that also deals with the WSI sparse annotations and unbalanced class issues. All proposed methods outperform state-of-the-art approaches but Alter-AttUNet generates the best compromise between accurate results and light network. The model achieves 95.88% accuracy with our sparse AiCOLO colon cancer datasets. Finally, to evaluate and validate our proposed architectures we resort to publicly available WSI data: the NCT-CRC-HE-100K, the CRC-5000 and the Warwick colon cancer histopathological dataset. Respective accuracies of 99.65%, 99.73% and 79.03% were reached. A comparison with state-of-art approaches is established to view and compare the key solutions for histopathological image segmentation.
  * {: .ref #eswa2022}Jurado, X., Reiminger, N., Benmoussa, M., Vazquez, J. and Wemmert, C. (2022)  
 [**Deep Learning methods evaluation to predict air quality based on computational fluid dynamics**]()  
 Expert Systems With Applications,  - [[Abstract]](javascript: toggleInfos('eswa2022','abstract')) - [[BibTeX]](javascript: toggleInfos('eswa2022','bibtex')) - [[PDF]](./publications/eswa2022.pdf) 
@@ -56,21 +70,6 @@ Computer Methods and Programs in Biomedicine, 208, 106157 - [[Abstract]](javascr
 }
 ```  
  * {:.abstract  #cmpb2021_abstract} Objective: This article presents an automatic image processing framework to extract quantitative high-level information describing the micro-environment of glomeruli in consecutive whole slide images (WSIs) processed with different staining modalities of patients with chronic kidney rejection after kidney transplantation.
- * {: .ref #ae2019}Jurado, X., Reiminger, N., Vazquez, J., Wemmert, C., Dufresne, M., Blond, N. and Wertel, J. (2019)  
-[**Assessment of mean annual NO2 concentration based on a partial dataset**](https://doi.org/10.1016/j.atmosenv.2019.117087)  
-Atmospheric Environment, 221, 117087 - [[Abstract]](javascript: toggleInfos('ae2019','abstract')) - [[BibTeX]](javascript: toggleInfos('ae2019','bibtex')) - [[PDF]](./publications/ae2019.pdf) 
- * {:.bibtex  #ae2019_bibtex} ```latex 
-@article{jurado2020assessment,
-  title={Assessment of mean annual NO2 concentration based on a partial dataset},
-  author={Jurado, Xavier and Reiminger, Nicolas and Vazquez, Jos{\'e} and Wemmert, C{\'e}dric and Dufresne, Matthieu and Blond, Nad{\`e}ge and Wertel, Jonathan},
-  journal={Atmospheric Environment},
-  volume={221},
-  pages={117087},
-  year={2020},
-  publisher={Elsevier}
-}
-```  
- * {:.abstract  #ae2019_abstract} NO2 is a pollutant harmful to both health and the environment. The European Union and the World Health Organization have developed guidelines in terms of pollutant. The value of 40 μg/m3 is set by both entities as the annual mean NO2 concentration not to be exceeded to prevent risks for human health. To assess this given value, yearlong in situ measurements are required. However, sometimes only partial data are available, such as having only NOx (NO + NO2) information, on the one hand, and, on the other hand, brief NO2 measurements performed over few months. To overcome the first hurdle, several methods exist in the literature to transform NOx data into NO2 data. The method of Derwent and Middleton is the most appropriate for France with less than 8% of deviation and even less deviation when considering rural and urban sites. For all values, NOx concentrations behave as expected with higher concentrations in autumn and winter than in spring and summer. However, for NO2 this trend changes around 80 μg/m³ for which the spring and summer values are higher. Therefore, to maximize measurements to assess an upper limit on annual NO2 concentration over a short period of time, those measurements should be done in winter if an annual concentration of less than 80 μg/m3 is expected, otherwise they should carry out in summer. To tackle the second issue, a second order polynomial approach is built on a Paris dataset covering years between 2013 and 2017 to determine annual mean concentrations with monthly mean concentrations and gives an overall error of 10%. The law built on Paris was then tested on several regions in France for the same period and resulted in predicted values with a mean error of about 15% compared to the measured ones. In the end, the presented methodology allows covering twelve times more ground with a single NO2 or NOx sensor with an acceptable error.
  * {: .ref #cmaj2019}Pelaccia, T., Forestier, G. and Wemmert, C. (2019)  
 [**Deconstructing the diagnostic reasoning of human versus artificial intelligence**](https://doi.org/10.1503/cmaj.190506)  
 Canadian Medical Association Journal, Vol. 191(48), pp. E1332 - [[Abstract]](javascript: toggleInfos('cmaj2019','abstract')) - [[BibTeX]](javascript: toggleInfos('cmaj2019','bibtex')) - [[PDF]](./publications/cmaj2019.pdf) 
@@ -121,44 +120,3 @@ Information Fusion, Volume 39, Pages 81-95 - [[Abstract]](javascript: toggleInfo
  * {:.abstract  #if2018_abstract} Clustering is one type of unsupervised learning where the goal is to partition the set of objects into groups called clusters. Faced to the difficulty to design a general purpose clustering algorithm and to choose a good, let alone perfect, set of criteria for clustering a data set, one solution is to resort to a variety of clustering procedures based on different techniques, parameters and/or initializations, in order to construct one (or several) final clustering(s). The hope is that by combining several clustering solutions, each one with its own bias and imperfections, one will get a better overall solution.  
 In the cooperative clustering model, as Ensemble Clustering, a set of clustering algorithms are used in parallel on a given data set: the local results are combined to get a hopefully better overall clustering. In the collaborative framework, the goal is that each local computation, quite possibly applied to distinct data sets, benefit from the work done by the other collaborators.  
 This paper is dedicated to collaborative clustering. In particular, after a brief overview of clustering and the major issues linked to, it presents main challenges related to organize and control the collaborative process.
- * {: .ref #bcrt2017}Schaadt, Alfonso, Schönmeyer, Grote, Forestier, Krönke, Mechthild, Kreipe, Haralampos, Wemmert and Feuerhake (2017)  
-[**Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis**](http://doi.org/10.1007/s10549-017-4239-z)  
-Breast Cancer Res Treat, 164 (2), 305-315 - [[Abstract]](javascript: toggleInfos('bcrt2017','abstract')) - [[BibTeX]](javascript: toggleInfos('bcrt2017','bibtex')) - [[PDF]](./publications/bcrt2017.pdf) 
- * {:.bibtex  #bcrt2017_bibtex} ```latex 
-@article{schaadt2017image,
-  title={Image analysis of immune cell patterns in the human mammary gland during the menstrual cycle refines lymphocytic lobulitis},
-  author={Schaadt, Nadine S and Alfonso, Juan Carlos L{\'o}pez and Sch{\"o}nmeyer, Ralf and Grote, Anne and Forestier, Germain and Wemmert, C{\'e}dric and Kr{\"o}nke, Nicole and Stoeckelhuber, Mechthild and Kreipe, Hans H and Hatzikirou, Haralampos and others},
-  journal={Breast cancer research and treatment},
-  volume={164},
-  number={2},
-  pages={305--315},
-  year={2017},
-  publisher={Springer}
-}
-```  
- * {:.abstract  #bcrt2017_abstract} Purpose: To improve microscopic evaluation of immune cells relevant in breast cancer oncoimmunology, we aim at distinguishing normal infiltration patterns from lymphocytic lobulitis by advanced image analysis. We consider potential immune cell variations due to the menstrual cycle and oral contraceptives in nonneoplastic mammary gland tissue.  
-Methods: Lymphocyte and macrophage distributions were analyzed in the anatomical context of the resting mammary gland in immunohistochemically stained digital whole slide images obtained from 53 reduction mammoplasty specimens. Our image analysis workflow included automated regions of interest detection, immune cell recognition, and co-registration of regions of interest.  
-Results: In normal lobular epithelium, seven CD8+ lymphocytes per 100 epithelial cells were present on average and about 70% of this T-lymphocyte population was lined up along the basal cell layer in close proximity to the epithelium. The density of CD8+ T-cell was 1.6 fold higher in the luteal than in the follicular phase in spontaneous menstrual cycles and 1.4 fold increased under influence of oral contraceptives, and not co-localized with epithelial proliferation. CD4+ T-cells were infrequent. Abundant CD163+ macrophages were widely spread, including the interstitial compartment, with minor variation during the menstrual cycle.  
-Conclusions: Spatial patterns of different immune cell subtypes determine the range of normal, as opposed to inflammatory conditions of the breast tissue microenvironment. Advanced image analysis enables quantification of hormonal effects, refines lymphocytic lobulitis, and shows potential for comprehensive biopsy evaluation in oncoimmunology
-
- 
- <!--
- * {: .ref #cbm2016}Apou, Schaadt, Naegel, Forestier, Schönmeyer, Feuerhake, Wemmert and Grote (2016)  
-[**Detection of lobular structures in normal breast tissue**](https://doi.org/10.1016/j.compbiomed.2016.05.004)  
-Computers in Biology and Medicine, pages 91-102, Volume 74 - [[Abstract]](javascript: toggleInfos('cbm2016','abstract')) - [[BibTeX]](javascript: toggleInfos('cbm2016','bibtex')) - [[PDF]](./publications/cbm2016.pdf) 
- * {:.bibtex  #cbm2016_bibtex} ```latex 
-@article{apou2016detection,
-  title={Detection of lobular structures in normal breast tissue},
-  author={Apou, Gr{\'e}gory and Schaadt, Nadine S and Naegel, Beno{\^\i}t and Forestier, Germain and Sch{\"o}nmeyer, Ralf and Feuerhake, Friedrich and Wemmert, C{\'e}dric and Grote, Anne},
-  journal={Computers in biology and medicine},
-  volume={74},
-  pages={91--102},
-  year={2016},
-  publisher={Elsevier}
-}
-```  
- * {:.abstract  #cbm2016_abstract} Background: Ongoing research into inflammatory conditions raises an increasing need to evaluate immune cells in histological sections in biologically relevant regions of interest (ROIs). Herein, we compare different approaches to automatically detect lobular structures in human normal breast tissue in digitized whole slide images (WSIs). This automation is required to perform objective and consistent quantitative studies on large data sets.  
-Methods: In normal breast tissue from nine healthy patients immunohistochemically stained for different markers, we evaluated and compared three different image analysis methods to automatically detect lobular structures in WSIs: (1) a bottom-up approach using the cell-based data for subsequent tissue level classification, (2) a top-down method starting with texture classification at tissue level analysis of cell densities in specific ROIs, and (3) a direct texture classification using deep learning technology.  
-Results: All three methods result in comparable overall quality allowing automated detection of lobular structures with minor advantage in sensitivity (approach 3), specificity (approach 2), or processing time (approach 1). Combining the outputs of the approaches further improved the precision.  
-Conclusions: Different approaches of automated ROI detection are feasible and should be selected according to the individual needs of biomarker research. Additionally, detected ROIs could be used as a basis for quantification of immune infiltration in lobular structures.
--->
