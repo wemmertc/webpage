@@ -1,3 +1,20 @@
+ * {: .ref #aim2022b}Vasiljevic, J., Nisar, Z., Feuerhake, F., Wemmert, C. and Lampert, T. (2022)  
+[**CycleGAN for virtual stain transfer: Is seeing really believing?**](https://www.sciencedirect.com/science/article/pii/S0933365722001725)  
+Artificial Intelligence in Medicine, 102420 - [[Abstract]](javascript: toggleInfos('aim2022b','abstract')) - [[BibTeX]](javascript: toggleInfos('aim2022b','bibtex')) - [[PDF]](./publications/aim2022b.pdf) 
+ * {:.bibtex  #aim2022b_bibtex} ```latex 
+@Article{2-VNFWL22,
+ author = {Vasiljevic, J. and Nisar, Z. and Feuerhake, F. and Wemmert, C. and Lampert, T.},
+ title = {CycleGAN for virtual stain transfer: Is seeing really believing?},
+ journal = {Artificial Intelligence in Medicine},
+ volume = {102420},
+ month = {Oct},
+ year = {2022},
+ doi = {10.1016/j.artmed.2022.102420},
+ x-international-audience = {Yes},
+ x-language = {EN}
+}
+```  
+ * {:.abstract  #aim2022b_abstract} Digital Pathology is an area prone to high variation due to multiple factors which can strongly affect diagnostic quality and visual appearance of the Whole-Slide-Images (WSIs). The state-of-the art methods to deal with such variation tend to address this through style-transfer inspired approaches. Usually, these solutions directly apply successful approaches from the literature, potentially with some task-related modifications. The majority of the obtained results are visually convincing, however, this paper shows that this is not a guarantee that such images can be directly used for either medical diagnosis or reducing domain shift.This article shows that slight modification in a stain transfer architecture, such as a choice of normalisation layer, while resulting in a variety of visually appealing results, surprisingly greatly effects the ability of a stain transfer model to reduce domain shift. By extensive qualitative and quantitative evaluations, we confirm that translations resulting from different stain transfer architectures are distinct from each other and from the real samples. Therefore conclusions made by visual inspection or pretrained model evaluation might be misleading.
  * {: .ref #aim2022}Ben Hamida, A., Devanne, M., Weber, J., Truntzer, C., Derangere, V., Ghiringhelli, F., Forestier, G. and Wemmert, C. (2022)  
 [**Weakly Supervised Learning using Attention gates for colon cancer histopathological image segmentation**](https://doi.org/10.1016/j.artmed.2022.102407)  
 Artificial Intelligence in Medicine, 102407 - [[Abstract]](javascript: toggleInfos('aim2022','abstract')) - [[BibTeX]](javascript: toggleInfos('aim2022','bibtex')) - [[PDF]](./publications/aim2022.pdf) 
@@ -35,7 +52,7 @@ Computers in Biology and Medicine, Vol. 136, 104730 - [[Abstract]](javascript: t
 ```  
  * {:.abstract  #cbm2021_abstract} Nowadays, digital pathology plays a major role in the diagnosis and prognosis of tumours. Unfortunately, existing methods remain limited when faced with the high resolution and size of Whole Slide Images (WSIs) coupled with the lack of richly annotated datasets. Regarding the ability of the Deep Learning (DL) methods to cope with the large scale applications, such models seem like an appealing solution for tissue classification and segmentation in histopathological images. This paper focuses on the use of DL architectures to classify and highlight colon cancer regions in a sparsely annotated histopathological data context. First, we review and compare state-of-the-art Convolutional Neural networks (CNN) including the AlexNet, vgg, ResNet, DenseNet and Inception models. To cope with the shortage of rich WSI datasets, we have resorted to the use of transfer learning techniques. This strategy comes with the hallmark of relying on a large size computer vision dataset (ImageNet) to train the network and generate a rich collection of learnt features. The testing and evaluation of such models on our AiCOLO colon cancer dataset ensure accurate patch-level classification results reaching up to 96.98% accuracy rate with ResNet. The CNN models have also been tested and evaluated with the CRC-5000, nct-crc-he-100k and merged datasets. ResNet respectively achieves 96.77%, 99.76% and 99.98% for the three publicly available datasets. Then, we present a pixel-wise segmentation strategy for colon cancer WSIs through the use of both UNet and SegNet models. We introduce a multi-step training strategy as a remedy for the sparse annotation of histopathological images. UNet and SegNet are used and tested in different training scenarios including data augmentation and transfer learning and ensure up to 76.18% and 81.22% accuracy rates. Besides, we test our training strategy and models on the CRC-5000, nct-crc-he-100k and Warwick datasets. Respective accuracy rates of 98.66%, 99.12% and 78.39% were achieved by SegNet. Finally, we analyze the existing models to discover the most suitable network and the most effective training strategy for our colon tumour segmentation case study.
  * {: .ref #neurocomp2021}Vasiljevic, J., Feuerhake, F., Wemmert, C. and Lampert, T. (2021)  
-[**Towards Histopathological Stain Invariance by Unsupervised Domain Augmentation using Generative Adversarial Networks**](https://www-sciencedirect-com.scd-rproxy.u-strasbg.fr/science/article/abs/pii/S0925231221010390)  
+[**Towards Histopathological Stain Invariance by Unsupervised Domain Augmentation using Generative Adversarial Networks**](https://www.sciencedirect.com/science/article/abs/pii/S0925231221010390)  
 Neurocomputing, 460, 277--291 - [[Abstract]](javascript: toggleInfos('neurocomp2021','abstract')) - [[BibTeX]](javascript: toggleInfos('neurocomp2021','bibtex')) - [[PDF]](./publications/neurocomp2021.pdf) 
  * {:.bibtex  #neurocomp2021_bibtex} ```latex 
 @Article{2-VFWL21,
