@@ -1,4 +1,4 @@
- * [Florian Allender](https://www.linkedin.com/in/florian-allender-269986136/?originalSubdomain=fr){: .main} (2022): **Data augmentation for histopathological images analysis: approaches by image generation and spatial deformations for glomeruli segmentation**  
+ * [Florian Allender](https://www.linkedin.com/in/florian-allender-269986136/?originalSubdomain=fr){: .main} (2022): **Data augmentation for histopathological images analysis**  
 Now Temporary associate Lecturer
  * [Jelica Vasiljevic](){: .main} (2022): **Domain adaptation with deep neural networks for histopathological images**  
 Now Associate Lecturer, University of Kragujevac, Serbia
