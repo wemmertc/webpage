@@ -46,7 +46,7 @@ Member of [CNU 27](https://cnu27.univ-lille.fr/) and [INSERM CSS2](https://eva3-
 {% include postdocs.md %}
 
 ## Publications
-A complete list of all my publications can be found on the [ICube publications server](https://icube-publis.unistra.fr/appli.php?author=wemmert).
+A complete list of all my publications can be found on the [ICube publications server](https://publis.icube.unistra.fr/appli.php?author=wemmert).
 
 #### Some selected publications
 
