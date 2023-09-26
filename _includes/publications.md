@@ -1,6 +1,6 @@
  * {: .ref #kbs2023}Vasiljevic, J., Feuerhake, F., Wemmert, C. and Lampert, T. (2023)  
-[**CycleGAN for virtual stain transfer: Is seeing really believing?**](https://www.sciencedirect.com/science/article/pii/S0950705123005300)  
-Knowledge-Based Systems,  - [[Abstract]](javascript: toggleInfos('kbs2023','abstract')) - [[BibTeX]](javascript: toggleInfos('kbs2023','bibtex')) - [[PDF]](./publications/kbs2023.pdf) 
+[**HistoStarGAN: A unified approach to stain normalisation, stain transfer and stain invariant segmentation in renal histopathology**](https://www.sciencedirect.com/science/article/pii/S0950705123005300)  
+Knowledge-Based Systems, 110780 - [[Abstract]](javascript: toggleInfos('kbs2023','abstract')) - [[BibTeX]](javascript: toggleInfos('kbs2023','bibtex')) - [[PDF]](./publications/kbs2023.pdf) 
  * {:.bibtex  #kbs2023_bibtex} ```latex 
 @article{vasiljevic2023histostargan,
   title={HistoStarGAN: A unified approach to stain normalisation, stain transfer and stain invariant segmentation in renal histopathology},
@@ -15,7 +15,7 @@ Knowledge-Based Systems,  - [[Abstract]](javascript: toggleInfos('kbs2023','abst
  * {:.abstract  #kbs2023_abstract} Virtual stain transfer is a promising area of research in Computational Pathology, which has a great potential to alleviate important limitations when applying deep-learning-based solutions such as lack of annotations and sensitivity to a domain shift. However, in the literature, the majority of virtual staining approaches are trained for a specific staining or stain combination, and their extension to unseen stainings requires the acquisition of additional data and training. In this paper, we propose HistoStarGAN, a unified framework that performs stain transfer between multiple stainings, stain normalisation and stain invariant segmentation, all in one inference of the model. We demonstrate the generalisation abilities of the proposed solution to perform diverse stain transfer and accurate stain invariant segmentation over numerous unseen stainings, which is the first such demonstration in the field. Moreover, the pre-trained HistoStarGAN model can serve as a synthetic data generator, which paves the way for the use of fully annotated synthetic image data to improve the training of deep learning-based algorithms. To illustrate the capabilities of our approach, as well as the potential risks in the microscopy domain, inspired by applications in natural images, we generated KidneyArtPathology, a fully annotated artificial image dataset for renal pathology.
  * {: .ref #aim2022b}Vasiljevic, J., Nisar, Z., Feuerhake, F., Wemmert, C. and Lampert, T. (2022)  
 [**CycleGAN for virtual stain transfer: Is seeing really believing?**](https://www.sciencedirect.com/science/article/pii/S0933365722001725)  
-Artificial Intelligence in Medicine,  - [[Abstract]](javascript: toggleInfos('aim2022b','abstract')) - [[BibTeX]](javascript: toggleInfos('aim2022b','bibtex')) - [[PDF]](./publications/aim2022b.pdf) 
+Artificial Intelligence in Medicine, 102420 - [[Abstract]](javascript: toggleInfos('aim2022b','abstract')) - [[BibTeX]](javascript: toggleInfos('aim2022b','bibtex')) - [[PDF]](./publications/aim2022b.pdf) 
  * {:.bibtex  #aim2022b_bibtex} ```latex 
 @Article{2-VNFWL22,
  author = {Vasiljevic, J. and Nisar, Z. and Feuerhake, F. and Wemmert, C. and Lampert, T.},
