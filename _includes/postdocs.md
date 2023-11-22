@@ -1,4 +1,6 @@
- * Joseph Lam: Postdoc position in collaboration with mi:EDGE (09/2022-)
+ * Liang Xiaowen: Postdoc position in collaboration with MAIA (01/2024-)
+ * Amina Ben Hamida: Postdoc position in collaboration with IMPULSE (09/2023-)
+ * Joseph Lam: Postdoc position in collaboration with mi:EDGE (09/2022-10/2023)
  * Bonan Cuan: Postdoc position in collaboration with mi:EDGE (09/2020-10/2022)
  * Amina Ben Hamida: Postdoc position in collaboration with AiCOLO (09/2020-01/2023)
  * Olivier Schirm: Research engineer position in collaboration with Visorando (04/2020-07/2020)
