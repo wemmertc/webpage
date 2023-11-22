@@ -1,4 +1,4 @@
- * Liang Xiaowen: Postdoc position in collaboration with MAIA (01/2024-)
+ * Xiaowen Liang: Postdoc position in collaboration with MAIA (01/2024-)
  * Amina Ben Hamida: Postdoc position in collaboration with IMPULSE (09/2023-)
  * Joseph Lam: Postdoc position in collaboration with mi:EDGE (09/2022-10/2023)
  * Bonan Cuan: Postdoc position in collaboration with mi:EDGE (09/2020-10/2022)
