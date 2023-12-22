@@ -14,8 +14,9 @@ Member of [CNU 27](https://cnu27.univ-lille.fr/)
 
 {% include contact.md %}
 
-{:.openposition}
+<!-- {:.openposition}
 **2023/09 - Open position:** Postdoc on *Multimodal deep learning for mass spectrometry data and histopathological images analysis* - [find out more here](./assets/files/2023_MAIA_postdoc.pdf)
+-->
 
 * * *
 
