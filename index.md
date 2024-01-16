@@ -70,6 +70,9 @@ I am teaching mainly in the Computer Science department of the [Technology Insti
 ### What is my job?
 
 > When you’re fundraising, it’s AI
+> 
 > When you’re hiring, it’s ML
+> 
 > When you’re implementing, it’s linear regression
+> 
 > When you’re debugging, it’s printf()
