@@ -8,7 +8,7 @@ layout: default
 
 Full professor in Computer Science, head of the [SDC team](https://sdc.icube.unistra.fr/en/index.php?title=Home) of the [Engineering, Computer and Imaging Sciences Laboratory](https://icube.unistra.fr) of the [University of Strasbourg](https://unistra.fr)
 
-Member of [CNU 27](https://cnu27.univ-lille.fr/)
+Member of [CNU 27](https://cnu27.ls2n.fr/)
 
 **Keywords**: data science, machine learning, histopathological images analysis
 
