@@ -2,6 +2,8 @@
 Now Research and development engineer at Visorando
  * [Romain Perrin](){: .main} (2024): **Hierarchical multi-scale structures for histological image analysis**  
 Now Temporary associate Lecturer
+ * [Imane Zidaoui](){: .main} (2024): **Validation of data from wastewater sensors using artificial intelligence**  
+Now Research and development engineer at 3DEAU
  * [Florian Allender](https://www.linkedin.com/in/florian-allender-269986136/?originalSubdomain=fr){: .main} (2022): **Data augmentation for histopathological images analysis**  
 Now Actuary Crédit Mutuel Insurance
  * [Jelica Vasiljevic](){: .main} (2022): **Domain adaptation with deep neural networks for histopathological images**  
