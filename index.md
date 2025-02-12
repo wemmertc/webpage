@@ -10,7 +10,7 @@ Full professor in Computer Science, head of the [SDC team](https://sdc.icube.uni
 
 Member of [CNU 27](https://cnu27.ls2n.fr/)
 
-**Keywords**: data science, machine learning, histopathological images analysis
+**Keywords**: data science, machine learning
 
 {% include contact.md %}
 
