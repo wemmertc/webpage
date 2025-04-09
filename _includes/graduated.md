@@ -1,5 +1,3 @@
- * [Imane Zidaoui](){: .main} (2024): **Advanced Data Validation Methods for Wastewater Sensors Using Artificial Intelligence**  
-Now Research and development engineer at 3DEAU
  * [Olivier Schirm](){: .main} (2024): **Spatio-temporal data analysis for the automatic construction of hiking maps**  
 Now Research and development engineer at Visorando
  * [Romain Perrin](){: .main} (2024): **Hierarchical multi-scale structures for histological image analysis**  
