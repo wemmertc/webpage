@@ -1,4 +1,4 @@
- * [Samuel Lebot](){: .main} (10/2025-): **Classification and evaluation of medical emergency calls using multimodal deep learning and voice analysis**  
+ * [Samuel Lebot](){: .main} (10/2025-): **Classification of medical emergency calls using multimodal deep learning and voice analysis**  
 PhD in collaboration with [IRIMAS](https://www.irimas.uha.fr/) co-supervised by Germain Forestier
  * [Damien Porcher](){: .main} (01/2025-): **Integration of neurosymbolic approaches for detection, diagnosis and management of gray faults in computer networks**  
 PhD in collaboration with [IRIMAS](https://www.irimas.uha.fr/) co-supervised by Jonathan Weber, Ali Ayadi and Maxime Devanne
