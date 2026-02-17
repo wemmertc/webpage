@@ -19,4 +19,4 @@ Now Associate Professor at INSAT Tunis, Tunisia
  * [Germain Forestier](http://germain-forestier.info){: .main} (2010): **Knowledge and collaborative clustering of complex multisource objects**  
 Now Full Professor at Université de Haute-Alsace
  * [Sébastien Derivaux](https://www.linkedin.com/in/sebastienderivaux/){: .main} (2009): **Classification of objects from remote sensing imagery using an iterative approach**  
-Now freelance Data Science Architect
+Now Freelance Data Science Architect
