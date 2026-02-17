@@ -46,7 +46,7 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 {% include postdocs.md %}
 
 ## Publications
-A complete list of all my publications can be found on the [ICube publications server](https://publis.icube.unistra.fr/appli.php?author=wemmert).
+A complete list of all my publications can be found on [Hal](https://cv.hal.science/cedric-wemmert).
 
 #### Some selected publications
 
