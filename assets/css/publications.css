@@ -139,13 +139,25 @@
   margin-top: 14px;
 }
 
-/* The label stays under the top bar while its publications are scrolled. */
+/* A group (one year or one type), made by publications.js: same two columns. */
+.pub-group {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: var(--label) minmax(0, 1fr);
+  column-gap: var(--gap);
+  align-items: start;
+}
+
 .pub-group-title {
   grid-column: 1;
-  position: sticky;
-  top: var(--bar);
   padding-top: 18px;
   font: 600 22px/26px var(--serif);
+}
+
+/* The label stays under the top bar while the publications of its group are scrolled. */
+.pub-group > .pub-group-title {
+  position: sticky;
+  top: var(--bar);
 }
 
 .pub-group-count {
@@ -174,7 +186,8 @@ ul.pubs::before {
 }
 
 /* (not above the first one: the hairline of the filters is just over it) */
-ul.pubs:first-of-type::before {
+.pub-list > ul.pubs:first-of-type::before,
+.pub-group:first-child > ul.pubs::before {
   display: none;
 }
 
@@ -382,21 +395,30 @@ li.pub .pub-abstract p {
   text-align: center;
 }
 
-/* ---- index of the years, in the right margin of wide screens -------------- */
+/* ---- index of the years, in a third column of wide screens ---------------- */
 
 .pub-rail {
   display: none;
 }
 
-@media (min-width: 1260px) {
+@media (min-width: 1100px) {
+  main {
+    grid-template-columns: var(--label) minmax(0, 1fr) 104px;
+  }
+
+  main > .pub-list {
+    grid-column: 1 / 3;
+  }
+
+  /* beside the title, the filters and the list; stays in view while the list is read */
   .pub-rail {
-    position: fixed;
-    top: calc(var(--bar) + 60px);
-    left: calc(50% + var(--page) / 2 + 8px);
+    grid-column: 3;
+    grid-row: 1 / span 3;
+    position: sticky;
+    top: calc(var(--bar) + 24px);
     display: flex;
     flex-direction: column;
-    width: 112px;
-    max-height: calc(100vh - var(--bar) - 100px);
+    max-height: calc(100vh - var(--bar) - 48px);
     overflow-y: auto;
     scrollbar-width: none;
     border-left: 1px solid var(--line);
@@ -431,19 +453,24 @@ li.pub .pub-abstract p {
 /* ---- small screens and print -------------------------------------------- */
 
 @media (max-width: 860px) {
-  .pub-list {
+  .pub-list,
+  .pub-group {
     display: block;
+  }
+
+  .pub-list {
     margin-top: 6px;
   }
 
-  .pub-group-title {
+  .pub-list .pub-group-title {
     position: static;
     padding-top: 22px;
     font-size: 22px;
     border-top: 1px solid var(--line);
   }
 
-  .pub-group-title:first-child {
+  .pub-list > .pub-group-title:first-child,
+  .pub-group:first-child > .pub-group-title {
     border-top: 0;
   }
 
@@ -485,7 +512,7 @@ li.pub .pub-abstract p {
     display: none !important;
   }
 
-  .pub-group-title {
+  .pub-list .pub-group-title {
     position: static;
   }
 }

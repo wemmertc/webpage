@@ -134,14 +134,17 @@
 
     list.textContent = '';
     sections.forEach(function (s) {
-      var title = list.appendChild(document.createElement('h2'));
+      // one block per group, so that its title stays in view only while its own publications are scrolled
+      var group = list.appendChild(document.createElement('div'));
+      group.className = 'pub-group';
+      var title = group.appendChild(document.createElement('h2'));
       title.className = 'pub-group-title';
       title.id = s.id;
       title.textContent = s.title + ' ';
       var n = title.appendChild(document.createElement('span'));
       n.className = 'pub-group-count';
       n.textContent = s.items.length;
-      var ul = list.appendChild(document.createElement('ul'));
+      var ul = group.appendChild(document.createElement('ul'));
       ul.className = 'pubs';
       s.items.forEach(function (p) { ul.appendChild(p.el); });
     });
