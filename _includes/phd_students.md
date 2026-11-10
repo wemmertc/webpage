@@ -1,3 +1,5 @@
+ * [Rabah Omrani](){: .main} (10/2026-): **Knowledge-Driven Multimodal AI for Understanding and Diagnosing Combined Liver Tumors**  
+PhD co-supervised by Ali Ayadi
  * [Socrates Waka Onyando](){: .main} (11/2025-): **Integrating Knowledge Graphs and Neurosymbolic AI for Rare Oro-Dental Anomaly Diagnosis**  
 PhD co-supervised by Agnès Bloch-Zupan and Ali Ayadi
  * [Samuel Lebot](){: .main} (10/2025-): **Classification of medical emergency calls using multimodal deep learning and voice analysis**  
