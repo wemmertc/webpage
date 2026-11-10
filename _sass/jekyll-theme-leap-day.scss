@@ -554,6 +554,51 @@ footer {
   font-weight:800;
 }
 
+// Collapsible sub-sections (<details markdown="1"> + <summary> in index.md):
+// the summary looks like the h4 titles and opens its list when clicked.
+details {
+  margin: 0 0 20px;
+
+  > summary {
+    color: #666666;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    // triangle: points right when closed, down when open
+    &::before {
+      content: "";
+      display: inline-block;
+      margin-right: 7px;
+      border: solid transparent;
+      border-width: 4px 0 4px 6px;
+      border-left-color: currentColor;
+      vertical-align: 1px;
+      transition: transform .15s;
+    }
+
+    &:hover {
+      color: #4276b6;
+    }
+  }
+
+  &[open] > summary {
+    margin-bottom: 10px;
+
+    &::before {
+      transform: rotate(90deg);
+    }
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
 .identity {
   float: right;
   width: 120px;

@@ -26,10 +26,12 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 
 {% include projects.md %}
 
-#### Past activities
+<details markdown="1">
+<summary>Past activities</summary>
 
 {% include past_projects.md %}
 
+</details>
 
 ## Research supervision
 
@@ -37,9 +39,12 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 
 {% include phd_students.md %}
 
-#### Graduated
+<details markdown="1">
+<summary>Graduated</summary>
 
 {% include graduated.md %}
+
+</details>
 
 #### Postdocs and engineers
 
@@ -47,10 +52,6 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 
 ## Publications
 [Browse the complete list of my publications](./publications/){: .main}, with abstracts, BibTeX entries and PDFs (also available on [HAL](https://cv.hal.science/cedric-wemmert)).
-
-#### Some selected publications
-
-{% include publications.md %}
 
 * * *
 

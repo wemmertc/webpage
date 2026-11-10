@@ -30,6 +30,7 @@ $(function() {
   sectionHeight();
 
   $('img').on('load', sectionHeight);
+  $('details').on('toggle', sectionHeight);  // collapsible lists change the height of the page
 });
 
 
