@@ -449,15 +449,16 @@ blockquote {
   color: var(--muted);
 }
 
+// the text of the introduction has the size of the contact, each paragraph keeps its colour
+.hero-body p {
+  font-size: 14.5px;
+}
+
 .hero .lead {
-  margin-bottom: 22px;
-  font-size: 19px;
-  line-height: 1.55;
   color: var(--ink);
 }
 
 .contact {
-  font-size: 14.5px;
   color: var(--muted);
 }
 
@@ -587,7 +588,6 @@ blockquote {
 
   .hero .lead {
     margin-top: 26px;
-    font-size: 18px;
   }
 }
 
