@@ -17,8 +17,7 @@
   var chips = document.getElementById('pub-types');
   var groupBy = document.getElementById('pub-groupby');
   var count = document.getElementById('pub-count');
-  var navList = document.querySelector('nav ul');
-  var home = document.querySelector('.pub-back a');
+  var rail = document.getElementById('pub-rail');
 
   // [[key, title], ...] in display order, written by the generator.
   var GROUPS = JSON.parse(list.getAttribute('data-groups') || '[]');
@@ -112,19 +111,17 @@
     return sections;
   }
 
-  function renderNav(sections) {
-    if (!navList) { return; }
-    function add(className, label, href) {
-      var a = navList.appendChild(document.createElement('li')).appendChild(document.createElement('a'));
-      a.parentNode.className = className;
-      a.href = href;
-      a.textContent = label;
-    }
-    navList.textContent = '';
-    navList.className = state.groupBy === 'year' ? 'pub-nav-years' : '';
-    if (home) { add('tag-h1', home.textContent, home.getAttribute('href')); }
-    add('tag-h1', 'Publications', '#publications');
-    sections.forEach(function (s) { add('tag-h2', s.title, '#' + s.id); });
+  // Index of the groups displayed (years or types), in the margin of wide screens.
+  function renderRail(sections) {
+    if (!rail) { return; }
+    rail.textContent = '';
+    sections.forEach(function (s) {
+      var a = rail.appendChild(document.createElement('a'));
+      a.href = '#' + s.id;
+      a.textContent = s.title;
+    });
+    rail.hidden = sections.length < 2;
+    if (window.siteSpy) { window.siteSpy(); }  // main.js marks the group being read
   }
 
   function render() {
@@ -157,7 +154,7 @@
       ? ''
       : visible.length + ' of ' + pubs.length + ' publications shown';
     updateToolbar(found);
-    renderNav(sections);
+    renderRail(sections);
   }
 
   function update() {
@@ -255,11 +252,7 @@
     }
   }
 
-  // assets/js/main.js fills the side menu from the headings on jQuery's ready event;
-  // registering after it guarantees that this page's menu replaces that one.
-  if (window.jQuery) {
-    window.jQuery(init);
-  } else if (document.readyState === 'loading') {
+  if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {
     init();

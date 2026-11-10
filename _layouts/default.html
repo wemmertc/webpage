@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170807493-1"></script>
 <script>
@@ -32,62 +35,41 @@
 }
 </script>
 
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
 {% seo %}
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% if page.stylesheet %}<link rel="stylesheet" href="{{ page.stylesheet | append: '?v=' | append: site.github.build_revision | relative_url }}">{% endif %}
-    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="{{ '/assets/js/main.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
     <meta name="description" content="Personal page of Cédric Wemmert, Professor in Computer Science and Data Scientist working on data science, data mining, histopathology images, machine learning, big data, artificial intelligence, deep learning." />
     <meta name="keywords" content="cedric wemmert, cédric wemmert, data science, data mining, machine learning, big data, artificial intelligence, deep learning, strasbourg, alsace, bas-rhin, intelligence artificielle, transfer learning, data augmentation" />
 
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <header>
-      <!--<h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>-->
-      <h1>Pr. Cédric Wemmert</h1>
-      <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+    <!-- Top bar. The links to the sections of the home page are marked as current by assets/js/main.js. -->
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="{{ '/' | relative_url }}">Cédric Wemmert</a>
+        <nav class="site-nav" aria-label="Main" data-spy>
+          <a href="{{ '/#about' | relative_url }}">About</a>
+          <a href="{{ '/#research' | relative_url }}">Research</a>
+          <a href="{{ '/#teaching' | relative_url }}">Teaching</a>
+          <a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+        </nav>
+      </div>
     </header>
 
-      <div id="banner">
-        <span id="logo"></span>
+    <main id="main" class="container">
+{{ content }}
+    </main>
 
-        <!--<a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>-->
-        {% if site.show_downloads %}
-          <div class="downloads">
-            <span>Find me:</span>
-            <ul>
-              <li><a href="http://scholar.google.com/citations?user=53-jD5QAAAAJ" class="button">Scholar</a></li>
-              <li><a href="https://dblp.org/pid/19/4594.html" class="button">DBLP</a></li>
-              <li><a href="https://orcid.org/0000-0002-4360-4918" class="button">ORCID</a></li>
-            </ul>
-          </div>
-        {% endif %}
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        {{ content }}
-
-      </section>
-      <footer>
-        <!--{% if site.github.is_project_page %}
-          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}-->
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
-      </footer>
-    </div>
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; {{ site.time | date: '%Y' }} Cédric Wemmert &middot; Last updated {{ site.time | date: '%B %Y' }}</p>
+        {% include profiles.html %}
+      </div>
+    </footer>
 
     {% if site.google_analytics %}
       <script>

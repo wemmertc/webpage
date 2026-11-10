@@ -4,8 +4,6 @@ title: Publications
 stylesheet: /assets/css/publications.css
 ---
 
-<p class="pub-back"><a href="{{ '/' | relative_url }}">&larr; Home</a></p>
-
 <h1 id="publications">Publications</h1>
 
 <!-- Shown by assets/js/publications.js; without JavaScript the list below is still complete. -->
@@ -25,4 +23,7 @@ stylesheet: /assets/css/publications.css
 
 {% include publications_hal.html %}
 
-<script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
+<!-- Index of the years (or types) of the list, in the right margin of wide screens; filled by publications.js. -->
+<nav id="pub-rail" class="pub-rail" aria-label="Jump to" data-spy hidden></nav>
+
+<script src="{{ '/assets/js/publications.js?v=' | append: site.github.build_revision | relative_url }}"></script>

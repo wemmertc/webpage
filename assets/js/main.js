@@ -1,78 +1,64 @@
-var sectionHeight = function() {
-  var total    = $(window).height(),
-      $section = $('section').css('height','auto');
+/*
+ * Script of the web page (all pages).
+ *  - In the menus flagged with data-spy, marks the link of the part of the page being read.
+ *  - Turns the links without address of the generated lists ([Name]()) into plain text.
+ */
+(function () {
+  'use strict';
 
-  if ($section.outerHeight(true) < total) {
-    var margin = $section.outerHeight(true) - $section.height();
-    $section.height(total - margin - 20);
-  } else {
-    $section.css('height','auto');
+  var header = document.querySelector('.site-header');
+  var scheduled = false;
+
+  // The element a menu link points to, when it is in this page.
+  function targetOf(link) {
+    if (!link.hash || link.pathname !== window.location.pathname) { return null; }
+    try {
+      return document.getElementById(decodeURIComponent(link.hash.slice(1)));
+    } catch (e) {
+      return null;
+    }
   }
-}
 
-$(window).resize(sectionHeight);
+  // The current part is the last one whose top has passed under the top bar.
+  function spy() {
+    scheduled = false;
+    var line = (header ? header.getBoundingClientRect().bottom : 0) + 28;
+    var doc = document.documentElement;
+    var atEnd = doc.scrollHeight > window.innerHeight + 2 &&
+                window.innerHeight + window.pageYOffset >= doc.scrollHeight - 2;
 
-$(function() {
-  $("section h1, section h2, section h3").each(function(){
-    $("nav ul").append("<li class='tag-" + this.nodeName.toLowerCase() + "'><a href='#" + $(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,'') + "'>" + $(this).text() + "</a></li>");
-    $(this).attr("id",$(this).text().toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g,''));
-    $("nav ul li:first-child a").parent().addClass("active");
+    Array.prototype.forEach.call(document.querySelectorAll('[data-spy]'), function (menu) {
+      var links = Array.prototype.filter.call(menu.querySelectorAll('a'), targetOf);
+      var current = links[0];
+      links.forEach(function (link) {
+        if (atEnd || targetOf(link).getBoundingClientRect().top <= line) { current = link; }
+      });
+      links.forEach(function (link) {
+        if (link === current) {
+          link.setAttribute('aria-current', 'true');
+        } else {
+          link.removeAttribute('aria-current');
+        }
+      });
+    });
+  }
+
+  function schedule() {
+    if (!scheduled) {
+      scheduled = true;
+      window.requestAnimationFrame(spy);
+    }
+  }
+
+  window.siteSpy = schedule;  // for the pages that build a menu themselves (publications.js)
+  window.addEventListener('scroll', schedule, { passive: true });
+  window.addEventListener('resize', schedule);
+  window.addEventListener('load', schedule);
+  document.addEventListener('toggle', schedule, true);  // a collapsible list was opened or closed
+
+  Array.prototype.forEach.call(document.querySelectorAll('main a[href=""]'), function (link) {
+    link.removeAttribute('href');
   });
 
-  $("nav ul li").on("click", "a", function(event) {
-    var position = $($(this).attr("href")).offset().top - 190;
-    $("html, body").animate({scrollTop: position}, 400);
-    $("nav ul li a").parent().removeClass("active");
-    $(this).parent().addClass("active");
-    event.preventDefault();
-  });
-
-  sectionHeight();
-
-  $('img').on('load', sectionHeight);
-  $('details').on('toggle', sectionHeight);  // collapsible lists change the height of the page
-});
-
-
-
-function highlight(pub) {
-    pub.style.border = "1px #778899 solid";
-    pub.style.padding = "3px 3px 3px 3px";
-    pub.style.background = "#F1F1F1";
-    pub.style.marginBottom = "1px";
-}
-
-function lowlight(pub) {
-    pub.style.border = "none";
-    pub.style.padding = "none";
-    pub.style.background = "none";
-    pub.style.marginBottom = "10px";
-}
-
-function toggleInfos(pub, item) {
-  var publi = document.getElementById(pub);
-  var bibtex = document.getElementById(pub+"_bibtex");
-  var abstract = document.getElementById(pub+"_abstract");
-
-  if(item=='bibtex') {
-    if(bibtex.style.display == 'none') {
-      bibtex.style.display = 'block';
-      highlight(publi);
-    } else {
-      bibtex.style.display = 'none';
-      lowlight(publi);
-    }
-    abstract.style.display = 'none';
-  }
-
-  if(item=='abstract') {
-    if(abstract.style.display == 'none') {
-      abstract.style.display = 'block';
-      highlight(publi);
-    } else {
-      abstract.style.display = 'none';
-      lowlight(publi);
-    }
-    bibtex.style.display = 'none';
-  }
-}
+  schedule();
+})();

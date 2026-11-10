@@ -1,0 +1,666 @@
+// Style of the web page: home (index.md) and publications (publications/index.html).
+//
+// Layout: a top bar, then one grid shared by all the pages, made of a narrow
+// column of labels (photo, section titles, years) and a column of content.
+// Under 860px the two columns are stacked.
+// The publications page adds assets/css/publications.css, which uses the
+// custom properties defined below.
+
+:root {
+  --bg: #ffffff;
+  --surface: #f4f6f8;
+  --ink: #141b26;
+  --text: #2d3644;
+  --muted: #647084;
+  --faint: #98a1b0;
+  --line: #e6e9ee;
+  --line-strong: #cdd3dc;
+  --accent: #2557a7;
+  --accent-dark: #183f7d;
+  --accent-soft: #edf2fa;
+
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --bar: 60px;      // height of the top bar
+  --page: 1000px;   // width of the page
+  --label: 190px;   // column of labels
+  --gap: 60px;      // space between the two columns
+}
+
+// ---- base -------------------------------------------------------------------
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+html {
+  color-scheme: light;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--bar) + 20px);   // anchors stay clear of the top bar
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font: 16px/1.65 var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #d6e3f7;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+p, ul, ol, blockquote, pre {
+  margin: 0 0 18px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--accent-dark);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+img {
+  max-width: 100%;
+}
+
+code, pre {
+  font-family: var(--mono);
+  font-size: 13px;
+}
+
+code {
+  padding: 2px 5px;
+  background: var(--surface);
+  border-radius: 4px;
+}
+
+pre {
+  padding: 14px 16px;
+  overflow-x: auto;
+  background: var(--surface);
+  border-radius: 10px;
+
+  code {
+    padding: 0;
+    background: none;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: var(--page);
+  margin: 0 auto;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+
+  &:focus {
+    left: 12px;
+    top: 12px;
+    z-index: 20;
+    padding: 8px 14px;
+    background: var(--bg);
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(20, 27, 38, .18);
+  }
+}
+
+// ---- top bar ----------------------------------------------------------------
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(255, 255, 255, .88);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  backdrop-filter: saturate(180%) blur(14px);
+  border-bottom: 1px solid var(--line);
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--bar);
+  }
+}
+
+.brand {
+  font: 600 19px/1 var(--serif);
+  color: var(--ink);
+
+  &:hover {
+    color: var(--ink);
+    text-decoration: none;
+  }
+}
+
+.site-nav {
+  display: flex;
+  gap: 32px;
+  height: 100%;
+
+  a {
+    display: flex;
+    align-items: center;
+    font-size: 14.5px;
+    color: var(--muted);
+    // the bottom border is the mark of the current section; the top one keeps the text centred
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: color .15s;
+
+    &:hover {
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    &[aria-current] {
+      color: var(--ink);
+      border-bottom-color: var(--accent);
+    }
+  }
+}
+
+// ---- page grid ----------------------------------------------------------------
+
+main {
+  flex: 1 0 auto;
+  display: grid;
+  grid-template-columns: var(--label) minmax(0, 1fr);
+  column-gap: var(--gap);
+  align-items: start;
+  align-content: start;
+  padding-top: 60px;
+  padding-bottom: 88px;
+
+  > * {
+    grid-column: 2;
+    min-width: 0;
+  }
+
+  // section titles are the labels of the left column
+  > h1,
+  > h2 {
+    grid-column: 1;
+    font: 600 22px/26px var(--serif);
+  }
+
+  > hr,
+  > .hero,
+  > .pub-list {
+    grid-column: 1 / -1;
+  }
+
+  > hr {
+    width: 100%;
+    height: 0;
+    margin: 56px 0;
+    border: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  // links inside the text are underlined, lightly
+  p a,
+  li a {
+    text-decoration: underline;
+    text-decoration-color: rgba(37, 87, 167, .32);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+
+    &:hover {
+      text-decoration-color: currentColor;
+    }
+  }
+
+  h3 {
+    margin: 44px 0 14px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -.01em;
+  }
+
+  > h2 + h3 {
+    margin-top: 0;   // first sub-section: on the same line as the label
+  }
+
+  // small labels: sub-lists and collapsible lists
+  h4,
+  summary {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  h4 {
+    margin: 26px 0 12px;
+  }
+
+  h3 + h4 {
+    margin-top: 2px;
+  }
+
+  // lists generated from the JSON data (projects, PhD, postdocs) and hand-written ones
+  > ul,
+  > details > ul {
+    padding: 0;
+    list-style: none;
+
+    > li {
+      position: relative;
+      margin: 0 0 12px;
+      padding-left: 20px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 2px;
+        top: .7em;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: var(--line-strong);
+      }
+
+      // title of a thesis (**Title** in the generated lists): the name before it is the bold part
+      > strong {
+        font-weight: 400;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+// title of an entry: project, PhD researcher... ([Title](url){: .main})
+.main {
+  font-weight: 600;
+}
+
+main a.main {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// entry without a web page: main.js removes the empty address, the title is plain text
+a.main:not([href]),
+a.main[href=""] {
+  color: var(--ink);
+  pointer-events: none;
+}
+
+// collapsible lists (<details markdown="1"> + <summary> in index.md)
+details {
+  margin: 0 0 10px;
+
+  > summary {
+    display: block;
+    padding: 4px 0;
+    list-style: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: color .15s;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    // chevron: points right when closed, down when open
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      margin: 0 10px 0 2px;
+      border-right: 1.5px solid currentColor;
+      border-bottom: 1.5px solid currentColor;
+      vertical-align: 2px;
+      transform: rotate(-45deg);
+      transition: transform .15s;
+    }
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+
+  &[open] > summary {
+    margin-bottom: 10px;
+
+    &::before {
+      transform: rotate(45deg);
+      vertical-align: 3px;
+    }
+  }
+}
+
+blockquote {
+  padding: 2px 0 2px 22px;
+  border-left: 2px solid var(--accent);
+  font: italic 18px/1.6 var(--serif);
+  color: var(--ink);
+
+  p {
+    margin: 0 0 4px;
+  }
+}
+
+// announcement ({:.openposition} before a paragraph of index.md)
+.openposition {
+  padding: 14px 18px;
+  background: var(--accent-soft);
+  border-radius: 10px;
+}
+
+// ---- home: introduction -------------------------------------------------------
+
+.hero {
+  display: grid;
+  grid-template-columns: var(--label) minmax(0, 1fr);
+  column-gap: var(--gap);
+  align-items: start;
+  scroll-margin-top: 400px;   // "About" goes back to the very top of the page
+
+  > p:first-child {
+    margin: 8px 0 0;
+  }
+
+  h1 {
+    margin: 0 0 8px;
+    font: 600 46px/1.1 var(--serif);
+    letter-spacing: -.015em;
+  }
+
+  p {
+    margin: 0 0 12px;
+  }
+}
+
+.hero-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.hero .hero-tagline {
+  margin-bottom: 26px;
+  font-size: 15px;
+  letter-spacing: .02em;
+  color: var(--muted);
+}
+
+.hero .lead {
+  margin-bottom: 22px;
+  font-size: 19px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.contact {
+  font-size: 14.5px;
+  color: var(--muted);
+}
+
+// links to the profiles (Scholar, DBLP...): _includes/profiles.html
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  a {
+    display: block;
+    padding: 0 14px;
+    font-size: 13.5px;
+    line-height: 30px;
+    color: var(--text);
+    text-decoration: none;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    transition: color .15s, border-color .15s;
+
+    &:hover {
+      color: var(--accent);
+      text-decoration: none;
+      border-color: var(--accent);
+    }
+  }
+}
+
+.hero .profiles {
+  margin-top: 24px;
+}
+
+// ---- footer ---------------------------------------------------------------------
+
+.site-footer {
+  font-size: 13.5px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px 24px;
+    padding-top: 22px;
+    padding-bottom: 26px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .profiles {
+    gap: 4px 22px;
+
+    a {
+      padding: 0;
+      font-size: inherit;
+      line-height: inherit;
+      color: var(--muted);
+      border: 0;
+
+      &:hover {
+        color: var(--accent);
+      }
+    }
+  }
+}
+
+// ---- small screens: one column ----------------------------------------------------
+
+@media (max-width: 860px) {
+  main {
+    display: block;
+    padding-top: 36px;
+    padding-bottom: 64px;
+
+    > h1,
+    > h2 {
+      margin: 0 0 18px;
+      font-size: 26px;
+      line-height: 32px;
+    }
+
+    > hr {
+      margin: 44px 0;
+    }
+  }
+
+  // the name and the tagline stay on the right of the photo, centred on it;
+  // the rest of the introduction comes under them, on the whole width
+  .hero {
+    grid-template-columns: 132px minmax(0, 1fr);
+    column-gap: 26px;
+
+    > p:first-child {
+      grid-row: 1 / span 2;
+      margin: 0;
+    }
+
+    h1 {
+      align-self: end;
+      font-size: 36px;
+    }
+  }
+
+  .hero-body {
+    display: contents;   // its paragraphs are placed in the grid of .hero
+
+    > * {
+      grid-column: 1 / -1;
+    }
+
+    > h1,
+    > .hero-tagline {
+      grid-column: 2;
+    }
+  }
+
+  .hero .hero-tagline {
+    margin-bottom: 0;
+  }
+
+  .hero .lead {
+    margin-top: 26px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --bar: 44px;   // only the menu stays at the top of the screen
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  // two lines: the name, which scrolls away, then the menu, which stays
+  .site-header {
+    top: -46px;
+
+    .container {
+      display: block;
+      height: auto;
+    }
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    height: 46px;
+  }
+
+  .site-nav {
+    justify-content: space-between;
+    gap: 0;
+    height: 44px;
+  }
+
+  .hero {
+    grid-template-columns: 100px minmax(0, 1fr);
+    column-gap: 18px;
+
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  .hero .lead {
+    margin-top: 22px;
+  }
+
+  .hero .profiles a {
+    padding: 0 12px;   // the four links fit on one line
+  }
+}
+
+// ---- print ------------------------------------------------------------------------
+
+@media print {
+  body {
+    display: block;
+    font-size: 11pt;
+  }
+
+  .site-header {
+    position: static;
+  }
+
+  .site-nav,
+  .skip-link,
+  .site-footer .profiles {
+    display: none;
+  }
+
+  main {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}

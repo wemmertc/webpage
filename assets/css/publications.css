@@ -1,105 +1,84 @@
 /*
  * Publications page (publications/index.html).
- * Complements the theme stylesheet (_sass/jekyll-theme-leap-day.scss) and reuses its
- * colours: blue #4276b6, yellow #ffcc00, greys #333 / #666 / #e5e5e5.
+ * Complements the stylesheet of the site (_sass/site.scss) and uses its custom
+ * properties (colours, fonts, widths of the two columns).
  */
 
-html {
-  scroll-behavior: smooth;
-}
-
-/* main.js freezes the height of a section shorter than the window; this list
-   grows and shrinks with the filters, so it must keep sizing itself. */
-section {
-  height: auto !important;
-  min-height: calc(100vh - 300px);
-}
-
-.pub-back {
-  margin: 0 0 12px;
-  font-size: 13px;
-}
-
 .pub-summary {
-  margin: 0 0 14px;
-  color: #666;
+  margin: 0 0 20px;
+  color: var(--muted);
 }
 
 /* ---- search and filters ------------------------------------------------- */
-
-.pub-toolbar[hidden],
-.pub-link[hidden],
-.pub-panel[hidden] {
-  display: none;
-}
 
 .pub-controls {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 8px 16px;
+  gap: 10px 18px;
 }
 
-/* (two classes: the theme's normalize.scss sets box-sizing on input[type="search"]) */
 .pub-toolbar .pub-search {
-  box-sizing: border-box;
   flex: 1 1 260px;
   min-width: 0;
-  padding: 6px 10px;
+  height: 40px;
+  padding: 0 12px 0 38px;
   font: inherit;
-  line-height: 18px;
-  color: #2b2b2b;
-  background: #fff;
-  border: 1px solid #cbcbcb;
-  border-radius: 3px;
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2398a1b0' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.7-3.7'/%3E%3C/svg%3E") no-repeat 13px 50%;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: border-color .15s, box-shadow .15s;
+}
+
+.pub-toolbar .pub-search::placeholder {
+  color: var(--faint);
 }
 
 .pub-toolbar .pub-search:focus {
   outline: none;
-  border-color: #4276b6;
-  box-shadow: 0 0 0 2px rgba(66, 118, 182, .25);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(37, 87, 167, .16);
 }
 
 .pub-seg {
   display: flex;
   align-items: center;
+  padding: 3px;
   white-space: nowrap;
+  background: var(--surface);
+  border-radius: 10px;
 }
 
 .pub-seg-label {
-  margin-right: 8px;
+  margin: 0 8px 0 10px;
   font-size: 13px;
-  color: #666;
+  color: var(--muted);
 }
 
 .pub-seg button {
+  padding: 0 13px;
   font: inherit;
-  font-size: 13px;
-  line-height: 18px;
-  padding: 6px 11px;
-  color: #666;
-  background: #fff;
-  border: 1px solid #cbcbcb;
+  font-size: 13.5px;
+  line-height: 34px;
+  color: var(--muted);
+  background: none;
+  border: 0;
+  border-radius: 8px;
   cursor: pointer;
 }
 
-.pub-seg button:first-of-type {
-  border-radius: 3px 0 0 3px;
-}
-
-.pub-seg button:last-of-type {
-  margin-left: -1px;
-  border-radius: 0 3px 3px 0;
-}
-
 .pub-seg button:hover {
-  color: #2b2b2b;
+  color: var(--ink);
 }
 
 .pub-seg button[aria-pressed="true"] {
-  color: #2b2b2b;
-  background: #ececec;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+  color: var(--ink);
+  background: var(--bg);
+  box-shadow: 0 1px 2px rgba(20, 27, 38, .14);
 }
 
 /* Type filters, as a row of tabs on a hairline. */
@@ -107,113 +86,126 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 0 20px;
-  margin-top: 8px;
-  box-shadow: inset 0 -1px 0 #e5e5e5;
+  margin-top: 14px;
+  box-shadow: inset 0 -1px 0 var(--line);
 }
 
 .pub-chip {
+  padding: 7px 0 8px;
   font: inherit;
-  font-size: 13px;
-  line-height: 18px;
-  padding: 5px 0 4px;
-  color: #666;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: var(--muted);
+  white-space: nowrap;
   background: none;
   border: 0;
   border-bottom: 2px solid transparent;
-  white-space: nowrap;
   cursor: pointer;
 }
 
 .pub-chip:hover {
-  color: #2b2b2b;
+  color: var(--ink);
 }
 
 .pub-chip[aria-pressed="true"] {
-  color: #4276b6;
-  border-bottom-color: #4276b6;
+  color: var(--ink);
+  border-bottom-color: var(--accent);
 }
 
 .pub-chip-count {
-  font-size: 11px;
-  color: #999;
-}
-
-.pub-chip:focus-visible,
-.pub-seg button:focus-visible,
-.pub-link:focus-visible,
-.pub-copy:focus-visible {
-  outline: 2px solid #4276b6;
-  outline-offset: 1px;
+  margin-left: 2px;
+  font-size: 12px;
+  color: var(--faint);
 }
 
 .pub-count {
-  margin: 8px 0 0;
-  font-size: 13px;
-  color: #666;
+  margin: 14px 0 0;
+  font-size: 13.5px;
+  color: var(--muted);
 }
 
 .pub-count:empty {
   display: none;
 }
 
-/* ---- list --------------------------------------------------------------- */
+/* ---- list ---------------------------------------------------------------- */
 
-/* The page header is fixed: keep anchored headings and entries clear of it. */
-#publications,
-.pub-group-title,
-li.pub {
-  scroll-margin-top: 185px;
+/* Same two columns as the page: the year (or type) on the left, its publications on the right. */
+.pub-list {
+  display: grid;
+  grid-template-columns: var(--label) minmax(0, 1fr);
+  column-gap: var(--gap);
+  align-items: start;
+  margin-top: 14px;
 }
 
+/* The label stays under the top bar while its publications are scrolled. */
 .pub-group-title {
-  margin: 22px 0 2px;
-  padding-bottom: 4px;
-  font-size: 20px;
-  border-bottom: 1px solid #e5e5e5;
+  grid-column: 1;
+  position: sticky;
+  top: var(--bar);
+  padding-top: 18px;
+  font: 600 22px/26px var(--serif);
 }
 
 .pub-group-count {
-  margin-left: 4px;
-  font-size: 12px;
-  font-weight: normal;
-  color: #999;
+  margin-left: 3px;
+  font: 500 12px/1 var(--sans);
+  color: var(--faint);
+  vertical-align: 7px;
 }
 
 ul.pubs {
-  margin: 0;
-  padding: 0;
+  grid-column: 2;
+  position: relative;
+  margin: 0 0 16px;
+  padding: 9px 0 0;
   list-style: none;
 }
 
-li.pub {
-  padding: 7px 0;
-  border-bottom: 1px dotted #d8d8d8;
+/* hairline above each group, across the two columns */
+ul.pubs::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: calc(-1 * (var(--label) + var(--gap)));
+  border-top: 1px solid var(--line);
 }
 
-li.pub:last-child {
-  border-bottom: 0;
+/* (not above the first one: the hairline of the filters is just over it) */
+ul.pubs:first-of-type::before {
+  display: none;
+}
+
+li.pub {
+  padding: 10px 0;
 }
 
 li.pub:target {
-  margin: 0 -8px;
-  padding-left: 8px;
-  padding-right: 8px;
-  background: #fff8d6;
+  margin: 0 -14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background: var(--accent-soft);
+  border-radius: 10px;
 }
 
 li.pub p {
   margin: 0;
-  line-height: 19px;
+  line-height: 1.45;
 }
 
-/* Same look as the selected publications of the home page. */
 .pub-title {
-  font-size: 15px;
+  font-size: 15.5px;
 }
 
 .pub-title,
 .pub-title a {
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.pub-title a {
+  text-decoration: none;
 }
 
 .pub-title a:hover {
@@ -221,120 +213,130 @@ li.pub p {
 }
 
 .pub-authors {
-  color: #555;
+  margin-top: 2px;
+  font-size: 14.5px;
+}
+
+li.pub .pub-authors {
+  margin-top: 2px;
 }
 
 .pub-me {
-  color: #2b2b2b;
+  color: var(--ink);
 }
 
 .pub-venue {
-  font-size: 13px;
-  color: #666;
+  font-size: 13.5px;
+  color: var(--muted);
+}
+
+li.pub .pub-venue {
+  margin-top: 2px;
 }
 
 /* Type of publication: a coloured dot and a small label before the reference. */
 .pub-badge {
-  margin-right: 3px;
-  font-size: 10px;
-  font-weight: bold;
-  letter-spacing: .06em;
+  margin-right: 4px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: .07em;
   text-transform: uppercase;
-  color: #777;
   white-space: nowrap;
 }
 
 .pub-badge::before {
   content: "";
   display: inline-block;
-  box-sizing: border-box;
   width: 7px;
   height: 7px;
-  margin-right: 5px;
+  margin-right: 6px;
   border-radius: 50%;
-  background: #999;
+  background: var(--faint);
 }
 
 .pub-badge-journal::before {
-  background: #4276b6;
+  background: var(--accent);
 }
 
 .pub-badge-conference::before {
-  background: #f0b500;
+  background: #e0a100;
 }
 
 .pub-badge-book::before {
-  background: #333;
+  background: var(--ink);
 }
 
 .pub-badge-other::before {
   background: none;
-  border: 1px solid #999;
+  border: 1.5px solid var(--faint);
 }
 
 .pub-lang {
   margin-left: 3px;
-  padding: 0 4px;
-  font-size: 11px;
-  color: #888;
-  border: 1px solid #d8d8d8;
-  border-radius: 2px;
+  padding: 0 6px;
+  font-size: 11.5px;
   white-space: nowrap;
+  border: 1px solid var(--line);
+  border-radius: 999px;
 }
 
 li.pub .pub-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  margin-top: 4px;
+  gap: 6px;
+  margin-top: 8px;
 }
 
+/* Links and buttons of a publication: same pills as the profile links of the home page. */
 .pub-link {
+  padding: 0 11px;
   font: inherit;
-  font-size: 11.5px;
-  line-height: 16px;
-  padding: 0 7px;
-  color: #4276b6;
-  background: #fff;
-  border: 1px solid #d3cfba;
-  border-radius: 3px;
+  font-size: 12.5px;
+  line-height: 22px;
+  color: var(--text);
+  text-decoration: none;
+  background: var(--bg);
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
   cursor: pointer;
+  transition: color .15s, border-color .15s;
 }
 
 .pub-link:hover {
-  border-color: #4276b6;
+  color: var(--accent);
+  text-decoration: none;
+  border-color: var(--accent);
 }
 
-/* Same look as the "Find me" buttons of the banner. */
 .pub-link-pdf {
-  color: #333;
-  font-weight: bold;
-  background: linear-gradient(#ffe788, #ffce38);
-  border-color: #dba500;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-color: transparent;
 }
 
-.pub-link-pdf:hover {
-  background: #ffe788;
-  border-color: #dba500;
-}
-
-.pub-toggle[aria-expanded="true"] {
+.pub-toggle[aria-expanded="true"],
+.pub-toggle[aria-expanded="true"]:hover {
   color: #fff;
-  background: #4276b6;
-  border-color: #35639c;
+  background: var(--ink);
+  border-color: var(--ink);
 }
 
-/* ---- abstract / BibTeX panels ------------------------------------------ */
+/* ---- abstract / BibTeX panels ------------------------------------------- */
 
 .pub-panel {
-  margin: 7px 0 3px;
+  margin: 10px 0 4px;
 }
 
 .pub-abstract {
-  padding: 7px 12px;
-  text-align: justify;
-  background: #f6f4ea;
-  border-left: 3px solid #ffcc00;
+  padding: 12px 16px;
+  font-size: 14.5px;
+  background: var(--surface);
+  border-radius: 10px;
+}
+
+li.pub .pub-abstract p {
+  line-height: 1.6;
 }
 
 .pub-abstract p + p {
@@ -347,49 +349,114 @@ li.pub .pub-links {
 
 .pub-bibtex pre {
   margin: 0;
-  padding: 10px 14px;
-  font-family: Monaco, Menlo, Consolas, "Bitstream Vera Sans Mono", monospace;
-  font-size: 12px;
-  line-height: 17px;
-  color: #efefef;
-  overflow-x: auto;
+  padding: 14px 16px;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: var(--ink);
 }
 
 .pub-copy {
   position: absolute;
-  top: 6px;
-  right: 6px;
+  top: 8px;
+  right: 8px;
+  padding: 0 11px;
   font: inherit;
-  font-size: 11px;
-  line-height: 16px;
-  padding: 1px 8px;
-  color: #efefef;
-  background: #555;
-  border: 1px solid #777;
-  border-radius: 3px;
+  font-size: 12px;
+  line-height: 22px;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
   cursor: pointer;
 }
 
 .pub-copy:hover {
-  background: #666;
+  color: var(--accent);
+  border-color: var(--accent);
 }
 
 .pub-empty {
-  margin: 30px 0;
-  color: #666;
+  grid-column: 1 / -1;
+  margin: 40px 0;
+  color: var(--muted);
   text-align: center;
 }
 
-/* ---- side menu: years flow on a few lines instead of one per line ------- */
+/* ---- index of the years, in the right margin of wide screens -------------- */
 
-nav ul.pub-nav-years li.tag-h2 {
-  display: inline-block;
-  padding: 3px 0 3px 10px;
+.pub-rail {
+  display: none;
 }
 
-/* ---- small screens and print ------------------------------------------- */
+@media (min-width: 1260px) {
+  .pub-rail {
+    position: fixed;
+    top: calc(var(--bar) + 60px);
+    left: calc(50% + var(--page) / 2 + 8px);
+    display: flex;
+    flex-direction: column;
+    width: 112px;
+    max-height: calc(100vh - var(--bar) - 100px);
+    overflow-y: auto;
+    scrollbar-width: none;
+    border-left: 1px solid var(--line);
+  }
 
-@media screen and (max-width: 600px) {
+  .pub-rail::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pub-rail a {
+    margin-left: -1px;
+    padding: 1px 0 1px 14px;
+    font-size: 12.5px;
+    line-height: 19px;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    border-left: 1px solid transparent;
+  }
+
+  .pub-rail a:hover {
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .pub-rail a[aria-current] {
+    font-weight: 600;
+    color: var(--ink);
+    border-left-color: var(--accent);
+  }
+}
+
+/* ---- small screens and print -------------------------------------------- */
+
+@media (max-width: 860px) {
+  .pub-list {
+    display: block;
+    margin-top: 6px;
+  }
+
+  .pub-group-title {
+    position: static;
+    padding-top: 22px;
+    font-size: 22px;
+    border-top: 1px solid var(--line);
+  }
+
+  .pub-group-title:first-child {
+    border-top: 0;
+  }
+
+  ul.pubs {
+    padding-top: 4px;
+  }
+
+  ul.pubs::before {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
   /* the tabs scroll sideways instead of wrapping */
   .pub-chips {
     flex-wrap: nowrap;
@@ -401,16 +468,24 @@ nav ul.pub-nav-years li.tag-h2 {
     display: none;
   }
 
-  .pub-abstract {
-    text-align: left;
+  .pub-seg {
+    flex: 1 1 100%;
+  }
+
+  .pub-seg-label {
+    margin-right: auto;
   }
 }
 
 @media print {
-  .pub-back,
   .pub-toolbar,
   .pub-toggle,
-  .pub-panel {
+  .pub-panel,
+  .pub-rail {
     display: none !important;
+  }
+
+  .pub-group-title {
+    position: static;
   }
 }
