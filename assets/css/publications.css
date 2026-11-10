@@ -1,0 +1,416 @@
+/*
+ * Publications page (publications/index.html).
+ * Complements the theme stylesheet (_sass/jekyll-theme-leap-day.scss) and reuses its
+ * colours: blue #4276b6, yellow #ffcc00, greys #333 / #666 / #e5e5e5.
+ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* main.js freezes the height of a section shorter than the window; this list
+   grows and shrinks with the filters, so it must keep sizing itself. */
+section {
+  height: auto !important;
+  min-height: calc(100vh - 300px);
+}
+
+.pub-back {
+  margin: 0 0 12px;
+  font-size: 13px;
+}
+
+.pub-summary {
+  margin: 0 0 14px;
+  color: #666;
+}
+
+/* ---- search and filters ------------------------------------------------- */
+
+.pub-toolbar[hidden],
+.pub-link[hidden],
+.pub-panel[hidden] {
+  display: none;
+}
+
+.pub-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+}
+
+/* (two classes: the theme's normalize.scss sets box-sizing on input[type="search"]) */
+.pub-toolbar .pub-search {
+  box-sizing: border-box;
+  flex: 1 1 260px;
+  min-width: 0;
+  padding: 6px 10px;
+  font: inherit;
+  line-height: 18px;
+  color: #2b2b2b;
+  background: #fff;
+  border: 1px solid #cbcbcb;
+  border-radius: 3px;
+}
+
+.pub-toolbar .pub-search:focus {
+  outline: none;
+  border-color: #4276b6;
+  box-shadow: 0 0 0 2px rgba(66, 118, 182, .25);
+}
+
+.pub-seg {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.pub-seg-label {
+  margin-right: 8px;
+  font-size: 13px;
+  color: #666;
+}
+
+.pub-seg button {
+  font: inherit;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 6px 11px;
+  color: #666;
+  background: #fff;
+  border: 1px solid #cbcbcb;
+  cursor: pointer;
+}
+
+.pub-seg button:first-of-type {
+  border-radius: 3px 0 0 3px;
+}
+
+.pub-seg button:last-of-type {
+  margin-left: -1px;
+  border-radius: 0 3px 3px 0;
+}
+
+.pub-seg button:hover {
+  color: #2b2b2b;
+}
+
+.pub-seg button[aria-pressed="true"] {
+  color: #2b2b2b;
+  background: #ececec;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+/* Type filters, as a row of tabs on a hairline. */
+.pub-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 20px;
+  margin-top: 8px;
+  box-shadow: inset 0 -1px 0 #e5e5e5;
+}
+
+.pub-chip {
+  font: inherit;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 5px 0 4px;
+  color: #666;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.pub-chip:hover {
+  color: #2b2b2b;
+}
+
+.pub-chip[aria-pressed="true"] {
+  color: #4276b6;
+  border-bottom-color: #4276b6;
+}
+
+.pub-chip-count {
+  font-size: 11px;
+  color: #999;
+}
+
+.pub-chip:focus-visible,
+.pub-seg button:focus-visible,
+.pub-link:focus-visible,
+.pub-copy:focus-visible {
+  outline: 2px solid #4276b6;
+  outline-offset: 1px;
+}
+
+.pub-count {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.pub-count:empty {
+  display: none;
+}
+
+/* ---- list --------------------------------------------------------------- */
+
+/* The page header is fixed: keep anchored headings and entries clear of it. */
+#publications,
+.pub-group-title,
+li.pub {
+  scroll-margin-top: 185px;
+}
+
+.pub-group-title {
+  margin: 22px 0 2px;
+  padding-bottom: 4px;
+  font-size: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.pub-group-count {
+  margin-left: 4px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #999;
+}
+
+ul.pubs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li.pub {
+  padding: 7px 0;
+  border-bottom: 1px dotted #d8d8d8;
+}
+
+li.pub:last-child {
+  border-bottom: 0;
+}
+
+li.pub:target {
+  margin: 0 -8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: #fff8d6;
+}
+
+li.pub p {
+  margin: 0;
+  line-height: 19px;
+}
+
+/* Same look as the selected publications of the home page. */
+.pub-title {
+  font-size: 15px;
+}
+
+.pub-title,
+.pub-title a {
+  font-weight: bold;
+}
+
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
+.pub-authors {
+  color: #555;
+}
+
+.pub-me {
+  color: #2b2b2b;
+}
+
+.pub-venue {
+  font-size: 13px;
+  color: #666;
+}
+
+/* Type of publication: a coloured dot and a small label before the reference. */
+.pub-badge {
+  margin-right: 3px;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #777;
+  white-space: nowrap;
+}
+
+.pub-badge::before {
+  content: "";
+  display: inline-block;
+  box-sizing: border-box;
+  width: 7px;
+  height: 7px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background: #999;
+}
+
+.pub-badge-journal::before {
+  background: #4276b6;
+}
+
+.pub-badge-conference::before {
+  background: #f0b500;
+}
+
+.pub-badge-book::before {
+  background: #333;
+}
+
+.pub-badge-other::before {
+  background: none;
+  border: 1px solid #999;
+}
+
+.pub-lang {
+  margin-left: 3px;
+  padding: 0 4px;
+  font-size: 11px;
+  color: #888;
+  border: 1px solid #d8d8d8;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+li.pub .pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 4px;
+}
+
+.pub-link {
+  font: inherit;
+  font-size: 11.5px;
+  line-height: 16px;
+  padding: 0 7px;
+  color: #4276b6;
+  background: #fff;
+  border: 1px solid #d3cfba;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pub-link:hover {
+  border-color: #4276b6;
+}
+
+/* Same look as the "Find me" buttons of the banner. */
+.pub-link-pdf {
+  color: #333;
+  font-weight: bold;
+  background: linear-gradient(#ffe788, #ffce38);
+  border-color: #dba500;
+}
+
+.pub-link-pdf:hover {
+  background: #ffe788;
+  border-color: #dba500;
+}
+
+.pub-toggle[aria-expanded="true"] {
+  color: #fff;
+  background: #4276b6;
+  border-color: #35639c;
+}
+
+/* ---- abstract / BibTeX panels ------------------------------------------ */
+
+.pub-panel {
+  margin: 7px 0 3px;
+}
+
+.pub-abstract {
+  padding: 7px 12px;
+  text-align: justify;
+  background: #f6f4ea;
+  border-left: 3px solid #ffcc00;
+}
+
+.pub-abstract p + p {
+  margin-top: 8px;
+}
+
+.pub-bibtex {
+  position: relative;
+}
+
+.pub-bibtex pre {
+  margin: 0;
+  padding: 10px 14px;
+  font-family: Monaco, Menlo, Consolas, "Bitstream Vera Sans Mono", monospace;
+  font-size: 12px;
+  line-height: 17px;
+  color: #efefef;
+  overflow-x: auto;
+}
+
+.pub-copy {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  font: inherit;
+  font-size: 11px;
+  line-height: 16px;
+  padding: 1px 8px;
+  color: #efefef;
+  background: #555;
+  border: 1px solid #777;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pub-copy:hover {
+  background: #666;
+}
+
+.pub-empty {
+  margin: 30px 0;
+  color: #666;
+  text-align: center;
+}
+
+/* ---- side menu: years flow on a few lines instead of one per line ------- */
+
+nav ul.pub-nav-years li.tag-h2 {
+  display: inline-block;
+  padding: 3px 0 3px 10px;
+}
+
+/* ---- small screens and print ------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+  /* the tabs scroll sideways instead of wrapping */
+  .pub-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .pub-chips::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pub-abstract {
+    text-align: left;
+  }
+}
+
+@media print {
+  .pub-back,
+  .pub-toolbar,
+  .pub-toggle,
+  .pub-panel {
+    display: none !important;
+  }
+}

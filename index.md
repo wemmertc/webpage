@@ -46,7 +46,7 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 {% include postdocs.md %}
 
 ## Publications
-A complete list of all my publications can be found on [Hal](https://cv.hal.science/cedric-wemmert).
+[Browse the complete list of my publications](./publications/){: .main}, with abstracts, BibTeX entries and PDFs (also available on [HAL](https://cv.hal.science/cedric-wemmert)).
 
 #### Some selected publications
 

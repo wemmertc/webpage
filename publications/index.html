@@ -1,0 +1,28 @@
+---
+layout: default
+title: Publications
+stylesheet: /assets/css/publications.css
+---
+
+<p class="pub-back"><a href="{{ '/' | relative_url }}">&larr; Home</a></p>
+
+<h1 id="publications">Publications</h1>
+
+<!-- Shown by assets/js/publications.js; without JavaScript the list below is still complete. -->
+<div id="pub-toolbar" class="pub-toolbar" hidden>
+  <div class="pub-controls">
+    <input type="search" id="pub-search" class="pub-search" autocomplete="off"
+           placeholder="Search by title, author, venue or keyword" aria-label="Search publications">
+    <div id="pub-groupby" class="pub-seg" role="group" aria-label="Group by">
+      <span class="pub-seg-label">Group by</span>
+      <button type="button" data-groupby="year" aria-pressed="true">Year</button>
+      <button type="button" data-groupby="type" aria-pressed="false">Type</button>
+    </div>
+  </div>
+  <div id="pub-types" class="pub-chips" role="group" aria-label="Filter by type"></div>
+  <p id="pub-count" class="pub-count" aria-live="polite"></p>
+</div>
+
+{% include publications_hal.html %}
+
+<script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
