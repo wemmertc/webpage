@@ -63,9 +63,12 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 
 </details>
 
-#### Postdocs and engineers
+<details markdown="1">
+<summary>Postdocs and engineers</summary>
 
 {% include postdocs.md %}
+
+</details>
 
 ### Publications
 
