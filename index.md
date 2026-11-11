@@ -100,22 +100,11 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 
 I am teaching mainly in the Computer Science department of the [Technology Institute Robert Schuman](https://iutrs.unistra.fr) of the [University of Strasbourg](https://unistra.fr).
 
-* Web services with JEE (also taught at [ENSISA](http://www.ensisa.uha.fr/accueil/etudes/ecole-ingenieur-informatique-et-reseaux/))
 * Introduction to networks
 * Networks programming
-* Graph theory
+* Edge programming
+* Advanced algorithmic
 * Discrete mathematics
 
 </div>
 
-* * *
-
-## What is my job?
-
-> When you’re fundraising, it’s AI
-> 
-> When you’re hiring, it’s ML
-> 
-> When you’re implementing, it’s linear regression
-> 
-> When you’re debugging, it’s printf()
