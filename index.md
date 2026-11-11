@@ -102,7 +102,7 @@ I am teaching mainly in the Computer Science department of the [Technology Insti
 
 * Introduction to networks
 * Networks programming
-* Edge programming
+* Embedded programming
 * Advanced algorithmic
 * Discrete mathematics
 
