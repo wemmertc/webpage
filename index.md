@@ -41,6 +41,14 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 
 <!-- Each <div class="block block-..."> gets a coloured band on its left (_sass/site.scss). -->
 
+### Publications
+
+<div class="block block-publications" markdown="1">
+
+[Browse the complete list of my publications](./publications/){: .main}, with abstracts, BibTeX entries and PDFs (also available on [HAL](https://cv.hal.science/cedric-wemmert)).
+
+</div>
+
 ### Current projects and collaborations
 
 <div class="block block-projects" markdown="1">
@@ -81,14 +89,6 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 {% include postdocs.md %}
 
 </details>
-
-</div>
-
-### Publications
-
-<div class="block block-publications" markdown="1">
-
-[Browse the complete list of my publications](./publications/){: .main}, with abstracts, BibTeX entries and PDFs (also available on [HAL](https://cv.hal.science/cedric-wemmert)).
 
 </div>
 
