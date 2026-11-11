@@ -19,6 +19,13 @@
   --accent-dark: #183f7d;
   --accent-soft: #edf2fa;
 
+  // colours of the blocks of the home page (band on their left, bullets, labels)
+  --c-projects: #2557a7;
+  --c-phd: #0f8b7d;
+  --c-postdocs: #7b52c7;
+  --c-publications: #d98a0b;
+  --c-teaching: #c4466f;
+
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -60,7 +67,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  font: 16px/1.65 var(--sans);
+  font: 14.5px/1.6 var(--sans);
   color: var(--text);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
@@ -78,7 +85,7 @@ h1, h2, h3, h4 {
 }
 
 p, ul, ol, blockquote, pre {
-  margin: 0 0 18px;
+  margin: 0 0 16px;
 }
 
 a {
@@ -177,7 +184,7 @@ pre {
 }
 
 .brand {
-  font: 600 19px/1 var(--serif);
+  font: 600 18px/1 var(--serif);
   color: var(--ink);
 
   &:hover {
@@ -194,7 +201,7 @@ pre {
   a {
     display: flex;
     align-items: center;
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: var(--muted);
     // the bottom border is the mark of the current section; the top one keeps the text centred
     border-top: 2px solid transparent;
@@ -234,7 +241,7 @@ main {
   > h1,
   > h2 {
     grid-column: 1;
-    font: 600 22px/26px var(--serif);
+    font: 600 20px/26px var(--serif);
   }
 
   > hr,
@@ -265,9 +272,9 @@ main {
   }
 
   h3 {
-    margin: 44px 0 14px;
-    font-size: 18px;
-    line-height: 26px;
+    margin: 40px 0 12px;
+    font-size: 16px;
+    line-height: 24px;
     letter-spacing: -.01em;
   }
 
@@ -278,7 +285,7 @@ main {
   // small labels: sub-lists and collapsible lists
   h4,
   summary {
-    font-size: 12px;
+    font-size: 11.5px;
     font-weight: 600;
     line-height: 18px;
     letter-spacing: .09em;
@@ -287,7 +294,7 @@ main {
   }
 
   h4 {
-    margin: 26px 0 12px;
+    margin: 24px 0 10px;
   }
 
   h3 + h4 {
@@ -296,14 +303,16 @@ main {
 
   // lists generated from the JSON data (projects, PhD, postdocs) and hand-written ones
   > ul,
-  > details > ul {
+  > details > ul,
+  .block > ul,
+  .block > details > ul {
     padding: 0;
     list-style: none;
 
     > li {
       position: relative;
-      margin: 0 0 12px;
-      padding-left: 20px;
+      margin: 0 0 10px;
+      padding-left: 18px;
 
       &::before {
         content: "";
@@ -391,10 +400,49 @@ details {
   }
 }
 
+// a block of the home page (<div class="block block-phd" markdown="1"> in index.md):
+// a coloured band on its left, its bullets and labels in the same colour
+.block {
+  --c: var(--accent);
+  margin: 0 0 16px;
+  padding: 2px 0 2px 20px;
+  border-left: 3px solid var(--c);
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child,
+  > details:last-child[open] > :last-child {
+    margin-bottom: 0;
+  }
+
+  h4,
+  summary {
+    color: color-mix(in srgb, var(--c) 78%, #000);
+  }
+
+  summary:hover {
+    color: var(--ink);
+  }
+}
+
+main .block > ul > li::before,
+main .block > details > ul > li::before {
+  background: var(--c);
+  opacity: .55;
+}
+
+.block-projects { --c: var(--c-projects); }
+.block-phd { --c: var(--c-phd); }
+.block-postdocs { --c: var(--c-postdocs); }
+.block-publications { --c: var(--c-publications); }
+.block-teaching { --c: var(--c-teaching); }
+
 blockquote {
-  padding: 2px 0 2px 22px;
-  border-left: 2px solid var(--accent);
-  font: italic 18px/1.6 var(--serif);
+  padding: 2px 0 2px 20px;
+  border-left: 3px solid var(--line-strong);
+  font: italic 16px/1.6 var(--serif);
   color: var(--ink);
 
   p {
@@ -426,7 +474,7 @@ blockquote {
 
   h1 {
     margin: 0 0 8px;
-    font: 600 38px/1.1 var(--serif);
+    font: 600 34px/1.1 var(--serif);
     letter-spacing: -.01em;
   }
 
@@ -446,15 +494,10 @@ blockquote {
 }
 
 .hero .hero-tagline {
-  margin-bottom: 26px;
-  font-size: 15px;
+  margin-bottom: 22px;
+  font-size: 14px;
   letter-spacing: .02em;
   color: var(--muted);
-}
-
-// the text of the introduction has the size of the contact, each paragraph keeps its colour
-.hero-body p {
-  font-size: 14.5px;
 }
 
 .hero .lead {
@@ -476,9 +519,9 @@ blockquote {
 
   a {
     display: block;
-    padding: 0 14px;
-    font-size: 13.5px;
-    line-height: 30px;
+    padding: 0 13px;
+    font-size: 12.5px;
+    line-height: 28px;
     color: var(--text);
     text-decoration: none;
     border: 1px solid var(--line-strong);
@@ -500,7 +543,7 @@ blockquote {
 // ---- footer ---------------------------------------------------------------------
 
 .site-footer {
-  font-size: 13.5px;
+  font-size: 12.5px;
   color: var(--muted);
   border-top: 1px solid var(--line);
 
@@ -545,9 +588,9 @@ blockquote {
 
     > h1,
     > h2 {
-      margin: 0 0 18px;
-      font-size: 26px;
-      line-height: 32px;
+      margin: 0 0 16px;
+      font-size: 23px;
+      line-height: 30px;
     }
 
     > hr {
@@ -569,7 +612,7 @@ blockquote {
 
     h1 {
       align-self: end;
-      font-size: 31px;
+      font-size: 29px;
     }
   }
 
@@ -642,6 +685,10 @@ blockquote {
 
   .hero .profiles a {
     padding: 0 12px;   // the four links fit on one line
+  }
+
+  .block {
+    padding-left: 16px;
   }
 }
 

@@ -39,7 +39,11 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 
 ## Research
 
+<!-- Each <div class="block block-..."> gets a coloured band on its left (_sass/site.scss). -->
+
 ### Current projects and collaborations
+
+<div class="block block-projects" markdown="1">
 
 {% include projects.md %}
 
@@ -50,7 +54,11 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 
 </details>
 
+</div>
+
 ### Research supervision
+
+<div class="block block-phd" markdown="1">
 
 #### Current PhD researchers
 
@@ -63,6 +71,10 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 
 </details>
 
+</div>
+
+<div class="block block-postdocs" markdown="1">
+
 <details markdown="1">
 <summary>Postdocs and engineers</summary>
 
@@ -70,13 +82,21 @@ Member of [CNU 27](https://cnu27.ls2n.fr/)
 
 </details>
 
+</div>
+
 ### Publications
 
+<div class="block block-publications" markdown="1">
+
 [Browse the complete list of my publications](./publications/){: .main}, with abstracts, BibTeX entries and PDFs (also available on [HAL](https://cv.hal.science/cedric-wemmert)).
+
+</div>
 
 * * *
 
 ## Teaching
+
+<div class="block block-teaching" markdown="1">
 
 I am teaching mainly in the Computer Science department of the [Technology Institute Robert Schuman](https://iutrs.unistra.fr) of the [University of Strasbourg](https://unistra.fr).
 
@@ -85,6 +105,8 @@ I am teaching mainly in the Computer Science department of the [Technology Insti
 * Networks programming
 * Graph theory
 * Discrete mathematics
+
+</div>
 
 * * *
 
